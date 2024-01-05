@@ -1,0 +1,2403 @@
+Archive member included to satisfy reference by file (symbol)
+
+obj_cooja/mtype966.a(simEnvChange.o)
+                              obj_cooja/mtype966.o (simDontFallAsleep)
+obj_cooja/mtype966.a(cooja_mt.o)
+                              obj_cooja/mtype966.o (cooja_mt_start)
+obj_cooja/mtype966.a(cooja_mtarch.o)
+                              obj_cooja/mtype966.a(cooja_mt.o) (cooja_mtarch_start)
+obj_cooja/mtype966.a(rtimer-arch.o)
+                              obj_cooja/mtype966.o (rtimer_arch_check)
+obj_cooja/mtype966.a(beep.o)  obj_cooja/mtype966.o (beep_interface)
+obj_cooja/mtype966.a(button-sensor.o)
+                              obj_cooja/mtype966.o (button_interface)
+obj_cooja/mtype966.a(leds-arch.o)
+                              obj_cooja/mtype966.o (leds_interface)
+obj_cooja/mtype966.a(moteid.o)
+                              obj_cooja/mtype966.o (moteid_interface)
+obj_cooja/mtype966.a(pir-sensor.o)
+                              obj_cooja/mtype966.o (pir_interface)
+obj_cooja/mtype966.a(rs232.o)
+                              obj_cooja/mtype966.o (rs232_interface)
+obj_cooja/mtype966.a(vib-sensor.o)
+                              obj_cooja/mtype966.o (vib_interface)
+obj_cooja/mtype966.a(clock.o)
+                              obj_cooja/mtype966.o (clock_interface)
+obj_cooja/mtype966.a(cooja-log.o)
+                              obj_cooja/mtype966.o (simlog_interface)
+obj_cooja/mtype966.a(cfs-cooja.o)
+                              obj_cooja/mtype966.o (cfs_interface)
+obj_cooja/mtype966.a(cooja-radio.o)
+                              obj_cooja/mtype966.o (radio_interface)
+obj_cooja/mtype966.a(eeprom.o)
+                              obj_cooja/mtype966.o (eeprom_interface)
+obj_cooja/mtype966.a(random.o)
+                              obj_cooja/mtype966.a(moteid.o) (random_init)
+obj_cooja/mtype966.a(sensors.o)
+                              obj_cooja/mtype966.a(button-sensor.o) (sensors_changed)
+obj_cooja/mtype966.a(leds.o)  mqtt-demo.o (leds_on)
+obj_cooja/mtype966.a(mqtt.o)  mqtt-demo.o (mqtt_disconnect)
+obj_cooja/mtype966.a(contiki-main.o)
+                              obj_cooja/mtype966.o (main)
+obj_cooja/mtype966.a(autostart.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (autostart_start)
+obj_cooja/mtype966.a(ctimer.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (ctimer_init)
+obj_cooja/mtype966.a(energest.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (energest_init)
+obj_cooja/mtype966.a(etimer.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (etimer_process)
+obj_cooja/mtype966.a(log.o)   obj_cooja/mtype966.a(contiki-main.o) (curr_log_level_main)
+obj_cooja/mtype966.a(process.o)
+                              obj_cooja/mtype966.a(mqtt.o) (process_current)
+obj_cooja/mtype966.a(rtimer.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (rtimer_init)
+obj_cooja/mtype966.a(node-id.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (node_id)
+obj_cooja/mtype966.a(timer.o)
+                              mqtt-demo.o (timer_set)
+obj_cooja/mtype966.a(serial-line.o)
+                              obj_cooja/mtype966.a(rs232.o) (serial_line_input_byte)
+obj_cooja/mtype966.a(list.o)  obj_cooja/mtype966.a(mqtt.o) (list_init)
+obj_cooja/mtype966.a(ringbuf.o)
+                              obj_cooja/mtype966.a(serial-line.o) (ringbuf_init)
+obj_cooja/mtype966.a(packetbuf.o)
+                              obj_cooja/mtype966.a(cooja-radio.o) (packetbuf_clear)
+obj_cooja/mtype966.a(netstack.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (netstack_init)
+obj_cooja/mtype966.a(linkaddr.o)
+                              mqtt-demo.o (linkaddr_node_addr)
+obj_cooja/mtype966.a(csma.o)  obj_cooja/mtype966.a(cooja-radio.o) (csma_driver)
+obj_cooja/mtype966.a(csma-output.o)
+                              obj_cooja/mtype966.a(csma.o) (csma_output_packet)
+obj_cooja/mtype966.a(uip-ds6.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (uip_ds6_get_link_local)
+obj_cooja/mtype966.a(tcp-socket.o)
+                              obj_cooja/mtype966.a(mqtt.o) (tcp_socket_register)
+obj_cooja/mtype966.a(tcpip.o)
+                              obj_cooja/mtype966.a(tcp-socket.o) (tcpip_event)
+obj_cooja/mtype966.a(uip-ds6-route.o)
+                              obj_cooja/mtype966.a(uip-ds6.o) (uip_ds6_route_init)
+obj_cooja/mtype966.a(uip6.o)  obj_cooja/mtype966.a(contiki-main.o) (uip_lladdr)
+obj_cooja/mtype966.a(uip-ds6-nbr.o)
+                              obj_cooja/mtype966.a(uip-ds6.o) (uip_ds6_neighbors_init)
+obj_cooja/mtype966.a(uip-nd6.o)
+                              obj_cooja/mtype966.a(uip6.o) (uip_nd6_init)
+obj_cooja/mtype966.a(sicslowpan.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (sicslowpan_driver)
+obj_cooja/mtype966.a(uiplib.o)
+                              obj_cooja/mtype966.a(mqtt.o) (uiplib_ip6addrconv)
+obj_cooja/mtype966.a(rpl.o)   obj_cooja/mtype966.a(contiki-main.o) (rpl_lite_driver)
+obj_cooja/mtype966.a(rpl-icmp6.o)
+                              obj_cooja/mtype966.a(rpl.o) (rpl_icmp6_init)
+obj_cooja/mtype966.a(rpl-dag.o)
+                              obj_cooja/mtype966.a(rpl.o) (curr_instance)
+obj_cooja/mtype966.a(rpl-dag-root.o)
+                              obj_cooja/mtype966.a(rpl.o) (rpl_dag_root_is_root)
+obj_cooja/mtype966.a(watchdog.o)
+                              obj_cooja/mtype966.a(contiki-main.o) (watchdog_init)
+obj_cooja/mtype966.a(stimer.o)
+                              obj_cooja/mtype966.a(uip-ds6.o) (stimer_set)
+obj_cooja/mtype966.a(memb.o)  obj_cooja/mtype966.a(csma-output.o) (memb_init)
+obj_cooja/mtype966.a(queuebuf.o)
+                              obj_cooja/mtype966.a(csma-output.o) (queuebuf_init)
+obj_cooja/mtype966.a(nbr-table.o)
+                              obj_cooja/mtype966.a(uip-ds6-nbr.o) (nbr_table_register)
+obj_cooja/mtype966.a(link-stats.o)
+                              obj_cooja/mtype966.a(sicslowpan.o) (link_stats_packet_sent)
+obj_cooja/mtype966.a(mac-sequence.o)
+                              obj_cooja/mtype966.a(csma.o) (mac_sequence_is_duplicate)
+obj_cooja/mtype966.a(mac.o)   obj_cooja/mtype966.a(csma-output.o) (mac_call_sent_callback)
+obj_cooja/mtype966.a(framer-802154.o)
+                              obj_cooja/mtype966.a(csma.o) (framer_802154)
+obj_cooja/mtype966.a(frame802154.o)
+                              obj_cooja/mtype966.a(framer-802154.o) (frame802154_get_pan_id)
+obj_cooja/mtype966.a(uipbuf.o)
+                              obj_cooja/mtype966.a(sicslowpan.o) (uipbuf_get_attr)
+obj_cooja/mtype966.a(uip-icmp6.o)
+                              obj_cooja/mtype966.a(uip6.o) (uip_icmp6_input)
+obj_cooja/mtype966.a(uip-sr.o)
+                              obj_cooja/mtype966.a(rpl-dag-root.o) (uip_sr_num_nodes)
+obj_cooja/mtype966.a(uip-packetqueue)
+                              obj_cooja/mtype966.a(uip-ds6-nbr.o) (uip_packetqueue_new)
+obj_cooja/mtype966.a(rpl-nbr-policy.)
+                              obj_cooja/mtype966.a(nbr-table.o) (rpl_nbr_policy_find_removable)
+obj_cooja/mtype966.a(rpl-neighbor.o)
+                              obj_cooja/mtype966.a(rpl-dag.o) (rpl_neighbors)
+obj_cooja/mtype966.a(rpl-timers.o)
+                              obj_cooja/mtype966.a(rpl-dag.o) (rpl_timers_schedule_periodic_dis)
+obj_cooja/mtype966.a(rpl-ext-header.)
+                              obj_cooja/mtype966.a(rpl.o) (rpl_ext_header_srh_get_next_hop)
+obj_cooja/mtype966.a(rpl-mrhof.o)
+                              obj_cooja/mtype966.a(rpl-dag.o) (rpl_mrhof)
+
+Allocating common symbols
+Common symbol       size              file
+
+simButtonIsActive   0x1               obj_cooja/mtype966.a(button-sensor.o)
+simButtonIsDown     0x1               obj_cooja/mtype966.a(button-sensor.o)
+simOutDataBuffer    0x80              obj_cooja/mtype966.a(cooja-radio.o)
+uip_ds6_prefix_list
+                    0x60              obj_cooja/mtype966.a(uip-ds6.o)
+linkaddr_node_addr  0x8               obj_cooja/mtype966.a(linkaddr.o)
+simSerialReceivingFlag
+                    0x1               obj_cooja/mtype966.a(rs232.o)
+simEEPROMData       0x400             obj_cooja/mtype966.a(eeprom.o)
+periodic_timer      0x20              obj_cooja/mtype966.a(link-stats.o)
+simLoggedLength     0x4               obj_cooja/mtype966.a(cooja-log.o)
+simSerialReceivingLength
+                    0x4               obj_cooja/mtype966.a(rs232.o)
+simEtimerPending    0x4               obj_cooja/mtype966.a(simEnvChange.o)
+uip_slen            0x2               obj_cooja/mtype966.a(uip6.o)
+uip_ds6_timer_periodic
+                    0x10              obj_cooja/mtype966.a(uip-ds6.o)
+uip_acc32           0x4               obj_cooja/mtype966.a(uip6.o)
+eb_per_time_source  0x14              obj_cooja/mtype966.a(contiki-main.o)
+unicast_per_neighbor_rpl_storing
+                    0x14              obj_cooja/mtype966.a(contiki-main.o)
+uip_conns           0x180             obj_cooja/mtype966.a(uip6.o)
+simVibChanged       0x1               obj_cooja/mtype966.a(vib-sensor.o)
+simRtimerPending    0x4               obj_cooja/mtype966.a(rtimer-arch.o)
+uip_ds6_netif_addr_list_offset
+                    0x1               obj_cooja/mtype966.a(uip-ds6.o)
+uip_lladdr          0x8               obj_cooja/mtype966.a(uip6.o)
+simProcessRunValue  0x4               obj_cooja/mtype966.a(simEnvChange.o)
+serial_line_event_message
+                    0x1               obj_cooja/mtype966.a(serial-line.o)
+uip_appdata         0x4               obj_cooja/mtype966.a(uip6.o)
+referenceVar        0x4               obj_cooja/mtype966.o
+simCurrentTime      0x4               obj_cooja/mtype966.a(clock.o)
+simVibIsActive      0x1               obj_cooja/mtype966.a(vib-sensor.o)
+unicast_per_neighbor_rpl_ns
+                    0x14              obj_cooja/mtype966.a(contiki-main.o)
+uip_ds6_if          0xf8              obj_cooja/mtype966.a(uip-ds6.o)
+uip_flags           0x1               obj_cooja/mtype966.a(uip6.o)
+uip_ds6_timer_ra    0x8               obj_cooja/mtype966.a(uip-ds6.o)
+default_common      0x14              obj_cooja/mtype966.a(contiki-main.o)
+mqtt_update_event   0x1               obj_cooja/mtype966.a(mqtt.o)
+simSerialReceivingData
+                    0x800             obj_cooja/mtype966.a(rs232.o)
+simLoggedFlag       0x1               obj_cooja/mtype966.a(cooja-log.o)
+packetbuf_attrs     0x1a              obj_cooja/mtype966.a(packetbuf.o)
+uip_ds6_addr_size   0x1               obj_cooja/mtype966.a(uip-ds6.o)
+uip_aligned_buf     0x500             obj_cooja/mtype966.a(uip6.o)
+simRtimerCurrentTicks
+                    0x8               obj_cooja/mtype966.a(rtimer-arch.o)
+simRandomSeed       0x4               obj_cooja/mtype966.a(moteid.o)
+rpl_multicast_addr  0x10              obj_cooja/mtype966.a(rpl.o)
+simLoggedData       0x2000            obj_cooja/mtype966.a(cooja-log.o)
+simLedsValue        0x1               obj_cooja/mtype966.a(leds-arch.o)
+simEtimerNextExpirationTime
+                    0x4               obj_cooja/mtype966.a(simEnvChange.o)
+uip_listenports     0x28              obj_cooja/mtype966.a(uip6.o)
+uip_len             0x2               obj_cooja/mtype966.a(uip6.o)
+simButtonChanged    0x1               obj_cooja/mtype966.a(button-sensor.o)
+simRtimerNextExpirationTime
+                    0x8               obj_cooja/mtype966.a(rtimer-arch.o)
+simPirIsActive      0x1               obj_cooja/mtype966.a(pir-sensor.o)
+simInDataBuffer     0x80              obj_cooja/mtype966.a(cooja-radio.o)
+simPirChanged       0x1               obj_cooja/mtype966.a(pir-sensor.o)
+simBeeped           0x1               obj_cooja/mtype966.a(beep.o)
+tcpip_event         0x1               obj_cooja/mtype966.a(tcpip.o)
+uip_sappdata        0x4               obj_cooja/mtype966.a(uip6.o)
+sensors_event       0x1               obj_cooja/mtype966.a(sensors.o)
+uip_udp_conns       0x100             obj_cooja/mtype966.a(uip6.o)
+packetbuf_addrs     0x10              obj_cooja/mtype966.a(packetbuf.o)
+uip_udp_conn        0x4               obj_cooja/mtype966.a(uip6.o)
+simMoteIDChanged    0x1               obj_cooja/mtype966.a(moteid.o)
+sensors_flags       0x4               obj_cooja/mtype966.o
+uip_next_hdr        0x4               obj_cooja/mtype966.a(uip6.o)
+curr_instance       0x164             obj_cooja/mtype966.a(rpl-dag.o)
+simMoteID           0x4               obj_cooja/mtype966.a(moteid.o)
+uip_conn            0x4               obj_cooja/mtype966.a(uip6.o)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ .group         0x0000000000000000        0x8 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ .group         0x0000000000000000        0x8 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 mqtt-demo.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(simEnvChange.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(cooja_mt.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(cooja_mtarch.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rtimer-arch.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(beep.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(button-sensor.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(leds-arch.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(moteid.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(pir-sensor.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rs232.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(vib-sensor.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(clock.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(cooja-log.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(cfs-cooja.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(cooja-radio.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(eeprom.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(random.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(sensors.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(leds.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(mqtt.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(contiki-main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(autostart.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(ctimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(energest.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(etimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(log.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(process.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rtimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(node-id.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(timer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(serial-line.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(list.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(ringbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(packetbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(netstack.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(linkaddr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(csma.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(csma-output.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uip-ds6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(tcp-socket.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(tcpip.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uip-ds6-route.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uip6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uip-ds6-nbr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uip-nd6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(sicslowpan.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uiplib.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rpl.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rpl-icmp6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rpl-dag.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rpl-dag-root.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(watchdog.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(stimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(memb.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(queuebuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(nbr-table.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(link-stats.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(mac-sequence.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(mac.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(framer-802154.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(frame802154.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uipbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uip-icmp6.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uip-sr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(uip-packetqueue)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rpl-nbr-policy.)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rpl-neighbor.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rpl-timers.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rpl-ext-header.)
+ .note.GNU-stack
+                0x0000000000000000        0x0 obj_cooja/mtype966.a(rpl-mrhof.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+LOAD /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+LOAD mqtt-demo.o
+LOAD obj_cooja/mtype966.o
+LOAD obj_cooja/mtype966.a
+LOAD /usr/lib/gcc/i686-linux-gnu/5/libgcc.a
+LOAD /usr/lib/gcc/i686-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/libc.so
+START GROUP
+LOAD /lib/i386-linux-gnu/libc.so.6
+LOAD /usr/lib/i386-linux-gnu/libc_nonshared.a
+LOAD /lib/i386-linux-gnu/ld-linux.so.2
+END GROUP
+LOAD /usr/lib/gcc/i686-linux-gnu/5/libgcc.a
+LOAD /usr/lib/gcc/i686-linux-gnu/5/libgcc_s.so
+LOAD /usr/lib/gcc/i686-linux-gnu/5/crtendS.o
+LOAD /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+                0x0000000000000114                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x0000000000000114       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000114       0x24 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000000138     0x13c8
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000000138     0x13c8 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+
+.dynsym         0x0000000000001500     0x2770
+ *(.dynsym)
+ .dynsym        0x0000000000001500     0x2770 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+
+.dynstr         0x0000000000003c70     0x2ae3
+ *(.dynstr)
+ .dynstr        0x0000000000003c70     0x2ae3 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+
+.gnu.version    0x0000000000006754      0x4ee
+ *(.gnu.version)
+ .gnu.version   0x0000000000006754      0x4ee /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+
+.gnu.version_d  0x0000000000006c44        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000006c44        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+
+.gnu.version_r  0x0000000000006c44       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000006c44       0x40 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+
+.rel.dyn        0x0000000000006c84     0xa160
+ *(.rel.init)
+ .rel.init      0x0000000000006c84        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000006c84     0x9858 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.rel.fini)
+ .rel.fini      0x00000000000104dc        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ .rel.rodata    0x00000000000104dc      0x578 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000010a54        0x8 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ .rel.data      0x0000000000010a5c      0x350 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000010dac       0x28 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000010dd4        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ .rel.fini_array
+                0x0000000000010dd4        0x8 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ .rel.init_array
+                0x0000000000010ddc        0x8 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+
+.rel.plt        0x0000000000010de4        0x0
+ *(.rel.plt)
+ .rel.plt       0x0000000000010de4        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.rel.iplt)
+
+.init           0x0000000000010de4       0x23
+ *(SORT(.init))
+ .init          0x0000000000010de4       0x1e /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+                0x0000000000010de4                _init
+ .init          0x0000000000010e02        0x5 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+
+.plt            0x0000000000010e10       0x10
+ *(.plt)
+ .plt           0x0000000000010e10       0x10 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000010e20       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000010e20       0x10 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+
+.text           0x0000000000010e30    0x1954e
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely
+                0x0000000000010e30        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000010e30        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ .gnu.linkonce.t.__x86.get_pc_thunk.bx
+                0x0000000000010e30        0x4 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+                0x0000000000010e30                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000010e34        0xc 
+ .text          0x0000000000010e40      0x11c /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000010f5c        0x4 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+                0x0000000000010f5c                __x86.get_pc_thunk.dx
+ .text          0x0000000000010f60      0xd47 mqtt-demo.o
+                0x0000000000010f60                ipaddr_sprintf
+ .text          0x0000000000011ca7      0x271 obj_cooja/mtype966.o
+                0x0000000000011d39                platform_init_stage_one
+                0x0000000000011d3f                platform_init_stage_two
+                0x0000000000011d4d                platform_init_stage_three
+                0x0000000000011d60                platform_main_loop
+                0x0000000000011dd3                Java_org_contikios_cooja_corecomm_Lib14_init
+                0x0000000000011e0a                Java_org_contikios_cooja_corecomm_Lib14_getMemory
+                0x0000000000011e3d                Java_org_contikios_cooja_corecomm_Lib14_setMemory
+                0x0000000000011e9d                Java_org_contikios_cooja_corecomm_Lib14_tick
+                0x0000000000011f05                Java_org_contikios_cooja_corecomm_Lib14_setReferenceAddress
+ .text          0x0000000000011f18       0x65 obj_cooja/mtype966.a(simEnvChange.o)
+                0x0000000000011f18                doActionsBeforeTick
+                0x0000000000011f4a                doActionsAfterTick
+ .text          0x0000000000011f7d       0x83 obj_cooja/mtype966.a(cooja_mt.o)
+                0x0000000000011f7d                cooja_mt_start
+                0x0000000000011fa7                cooja_mt_exec
+                0x0000000000011fdd                cooja_mt_yield
+ .text          0x0000000000012000       0xbe obj_cooja/mtype966.a(cooja_mtarch.o)
+                0x0000000000012000                cooja_mtarch_start
+                0x0000000000012073                cooja_sw
+                0x0000000000012096                cooja_mtarch_exec
+                0x00000000000120b3                cooja_mtarch_yield
+ .text          0x00000000000120be       0xc5 obj_cooja/mtype966.a(rtimer-arch.o)
+                0x00000000000120be                rtimer_arch_init
+                0x00000000000120e2                rtimer_arch_schedule
+                0x0000000000012112                rtimer_arch_next
+                0x0000000000012122                rtimer_arch_pending
+                0x000000000001212c                rtimer_arch_check
+                0x0000000000012173                rtimer_arch_now
+ .text          0x0000000000012183       0x81 obj_cooja/mtype966.a(beep.o)
+                0x0000000000012183                beep_alarm
+                0x0000000000012190                beep_beep
+                0x000000000001219d                beep
+                0x00000000000121aa                beep_down
+                0x00000000000121b7                beep_on
+                0x00000000000121c4                beep_off
+                0x00000000000121d1                beep_spinup
+                0x00000000000121de                beep_quick
+                0x00000000000121eb                beep_long
+ .text          0x0000000000012204      0x10d obj_cooja/mtype966.a(button-sensor.o)
+ .text          0x0000000000012311       0x49 obj_cooja/mtype966.a(leds-arch.o)
+                0x0000000000012311                leds_arch_init
+                0x000000000001231e                leds_arch_get
+                0x000000000001232a                leds_arch_set
+ .text          0x000000000001235a       0x35 obj_cooja/mtype966.a(moteid.o)
+ .text          0x000000000001238f       0xb7 obj_cooja/mtype966.a(pir-sensor.o)
+ .text          0x0000000000012446      0x148 obj_cooja/mtype966.a(rs232.o)
+                0x0000000000012446                rs232_init
+                0x000000000001244c                rs232_set_speed
+                0x000000000001245b                rs232_set_input
+                0x0000000000012469                rs232_send
+                0x000000000001248d                rs232_print
+                0x00000000000124a9                slip_arch_writeb
+ .text          0x000000000001258e       0xb7 obj_cooja/mtype966.a(vib-sensor.o)
+ .text          0x0000000000012645       0x38 obj_cooja/mtype966.a(clock.o)
+                0x0000000000012645                clock_init
+                0x000000000001264b                clock_time
+                0x0000000000012655                clock_seconds
+                0x000000000001266b                clock_delay
+ .text          0x000000000001267d      0x219 obj_cooja/mtype966.a(cooja-log.o)
+                0x000000000001267d                simlog_char
+                0x00000000000126c0                simlog
+                0x0000000000012736                log_message
+                0x0000000000012767                log_set_putchar_with_slip
+                0x0000000000012775                log_putchar
+                0x00000000000127f0                log_puts
+                0x0000000000012818                log_printf
+ .text          0x0000000000012896      0x2b9 obj_cooja/mtype966.a(cfs-cooja.o)
+                0x0000000000012896                cfs_open
+                0x00000000000128ff                cfs_close
+                0x000000000001290c                cfs_read
+                0x00000000000129a1                cfs_write
+                0x0000000000012a7d                cfs_seek
+                0x0000000000012b05                cfs_remove
+                0x0000000000012b29                cfs_opendir
+                0x0000000000012b33                cfs_readdir
+                0x0000000000012b3d                cfs_closedir
+ .text          0x0000000000012b4f      0x605 obj_cooja/mtype966.a(cooja-radio.o)
+                0x0000000000012b91                radio_set_channel
+                0x0000000000012b9f                radio_set_txpower
+                0x0000000000012bb7                radio_signal_strength_last
+                0x0000000000012bc1                radio_signal_strength_current
+                0x0000000000012bcb                radio_LQI
+ .text          0x0000000000013154       0xee obj_cooja/mtype966.a(eeprom.o)
+                0x0000000000013154                eeprom_init
+                0x000000000001315a                eeprom_read
+                0x00000000000131c8                eeprom_write
+ .text          0x0000000000013242       0x2d obj_cooja/mtype966.a(random.o)
+                0x0000000000013242                random_init
+                0x0000000000013262                random_rand
+ .text          0x000000000001326f      0x29c obj_cooja/mtype966.a(sensors.o)
+                0x00000000000132aa                sensors_first
+                0x00000000000132b4                sensors_next
+                0x00000000000132ce                sensors_changed
+                0x0000000000013302                sensors_find
+ .text          0x000000000001350b       0xf6 obj_cooja/mtype966.a(leds.o)
+                0x000000000001350b                leds_init
+                0x0000000000013519                leds_blink
+                0x000000000001355c                leds_get
+                0x0000000000013569                leds_set
+                0x0000000000013588                leds_on
+                0x00000000000135ae                leds_off
+                0x00000000000135db                leds_toggle
+ .text          0x0000000000013601     0x3779 obj_cooja/mtype966.a(mqtt.o)
+                0x00000000000167a4                mqtt_init
+                0x0000000000016862                mqtt_register
+                0x00000000000168ff                mqtt_connect
+                0x0000000000016a11                mqtt_disconnect
+                0x0000000000016a4f                mqtt_subscribe
+                0x0000000000016b0c                mqtt_unsubscribe
+                0x0000000000016bba                mqtt_publish
+                0x0000000000016c9b                mqtt_set_username_password
+                0x0000000000016d26                mqtt_set_last_will
+ .text          0x0000000000016d7a      0x328 obj_cooja/mtype966.a(contiki-main.o)
+                0x0000000000016d7a                main
+ .text          0x00000000000170a2       0x92 obj_cooja/mtype966.a(autostart.o)
+                0x00000000000170a2                autostart_start
+                0x00000000000170ec                autostart_exit
+ .text          0x0000000000017134      0x355 obj_cooja/mtype966.a(ctimer.o)
+                0x000000000001725c                ctimer_init
+                0x000000000001728f                ctimer_set
+                0x00000000000172b5                ctimer_set_with_process
+                0x0000000000017332                ctimer_reset
+                0x0000000000017386                ctimer_restart
+                0x00000000000173da                ctimer_stop
+                0x000000000001742a                ctimer_expired
+ .text          0x0000000000017489       0x1b obj_cooja/mtype966.a(energest.o)
+                0x0000000000017489                energest_init
+                0x000000000001748f                energest_flush
+                0x0000000000017495                energest_get_total_time
+ .text          0x00000000000174a4      0x43f obj_cooja/mtype966.a(etimer.o)
+                0x00000000000176c8                etimer_request_poll
+                0x0000000000017751                etimer_set
+                0x000000000001777a                etimer_reset_with_new_interval
+                0x00000000000177a9                etimer_reset
+                0x00000000000177cf                etimer_restart
+                0x00000000000177f5                etimer_adjust
+                0x0000000000017812                etimer_expired
+                0x0000000000017825                etimer_expiration_time
+                0x0000000000017837                etimer_start_time
+                0x0000000000017841                etimer_pending
+                0x0000000000017853                etimer_next_expiration_time
+                0x000000000001786d                etimer_stop
+ .text          0x00000000000178e3      0x394 obj_cooja/mtype966.a(log.o)
+                0x00000000000178e3                log_6addr
+                0x0000000000017936                log_6addr_compact_snprint
+                0x00000000000179d4                log_6addr_compact
+                0x0000000000017a27                log_lladdr
+                0x0000000000017a99                log_lladdr_compact
+                0x0000000000017b01                log_set_level
+                0x0000000000017bbc                log_get_level
+                0x0000000000017c35                log_level_to_str
+ .text          0x0000000000017c77      0x4fb obj_cooja/mtype966.a(process.o)
+                0x0000000000017c77                process_alloc_event
+                0x0000000000017c8c                process_start
+                0x0000000000017e66                process_exit
+                0x0000000000017e83                process_init
+                0x0000000000018018                process_run
+                0x000000000001804b                process_nevents
+                0x0000000000018066                process_post
+                0x00000000000180f9                process_post_synch
+                0x000000000001812e                process_poll
+                0x000000000001815e                process_is_running
+ .text          0x0000000000018172       0xeb obj_cooja/mtype966.a(rtimer.o)
+                0x0000000000018172                rtimer_init
+                0x0000000000018180                rtimer_set
+                0x00000000000181fb                rtimer_run_next
+ .text          0x000000000001825d       0x25 obj_cooja/mtype966.a(node-id.o)
+                0x000000000001825d                node_id_init
+ .text          0x0000000000018282       0x9c obj_cooja/mtype966.a(timer.o)
+                0x0000000000018282                timer_set
+                0x00000000000182a0                timer_reset
+                0x00000000000182b8                timer_restart
+                0x00000000000182cd                timer_expired
+                0x00000000000182fa                timer_remaining
+ .text          0x000000000001831e      0x1eb obj_cooja/mtype966.a(serial-line.o)
+                0x000000000001831e                serial_line_input_byte
+                0x00000000000184d4                serial_line_init
+ .text          0x0000000000018509      0x28f obj_cooja/mtype966.a(list.o)
+                0x0000000000018509                list_init
+                0x0000000000018518                list_head
+                0x0000000000018522                list_copy
+                0x0000000000018532                list_tail
+                0x0000000000018568                list_add
+                0x00000000000185b4                list_push
+                0x00000000000185e0                list_chop
+                0x000000000001864a                list_pop
+                0x0000000000018672                list_remove
+                0x00000000000186da                list_length
+                0x0000000000018708                list_insert
+                0x000000000001874d                list_item_next
+                0x0000000000018764                list_contains
+ .text          0x0000000000018798      0x156 obj_cooja/mtype966.a(ringbuf.o)
+                0x0000000000018798                ringbuf_init
+                0x00000000000187ca                ringbuf_put
+                0x0000000000018848                ringbuf_get
+                0x00000000000188b5                ringbuf_size
+                0x00000000000188c7                ringbuf_elements
+ .text          0x00000000000188ee      0x407 obj_cooja/mtype966.a(packetbuf.o)
+                0x00000000000188ee                packetbuf_clear
+                0x0000000000018919                packetbuf_copyfrom
+                0x0000000000018968                packetbuf_copyto
+                0x00000000000189fb                packetbuf_hdralloc
+                0x0000000000018a77                packetbuf_hdrreduce
+                0x0000000000018abd                packetbuf_set_datalen
+                0x0000000000018ad7                packetbuf_dataptr
+                0x0000000000018af4                packetbuf_hdrptr
+                0x0000000000018afe                packetbuf_datalen
+                0x0000000000018b0a                packetbuf_hdrlen
+                0x0000000000018b21                packetbuf_totlen
+                0x0000000000018b37                packetbuf_remaininglen
+                0x0000000000018b4a                packetbuf_attr_clear
+                0x0000000000018b96                packetbuf_attr_copyto
+                0x0000000000018bee                packetbuf_attr_copyfrom
+                0x0000000000018c46                packetbuf_set_attr
+                0x0000000000018c70                packetbuf_attr
+                0x0000000000018c8a                packetbuf_set_addr
+                0x0000000000018cbb                packetbuf_addr
+                0x0000000000018cd8                packetbuf_holds_broadcast
+ .text          0x0000000000018cf5       0xef obj_cooja/mtype966.a(netstack.o)
+                0x0000000000018cf5                netstack_process_ip_callback
+                0x0000000000018d86                netstack_ip_packet_processor_add
+                0x0000000000018da9                uip_ds6_ip_packet_processor_rm
+                0x0000000000018dc6                netstack_init
+ .text          0x0000000000018de4       0x4f obj_cooja/mtype966.a(linkaddr.o)
+                0x0000000000018de4                linkaddr_copy
+                0x0000000000018dfa                linkaddr_cmp
+                0x0000000000018e1d                linkaddr_set_node_addr
+ .text          0x0000000000018e33      0x165 obj_cooja/mtype966.a(csma.o)
+ .text          0x0000000000018f98      0x944 obj_cooja/mtype966.a(csma-output.o)
+                0x0000000000019611                csma_output_packet
+                0x000000000001989e                csma_output_init
+ .text          0x00000000000198dc      0xb25 obj_cooja/mtype966.a(uip-ds6.o)
+                0x00000000000198dc                uip_ds6_init
+                0x0000000000019a87                uip_ds6_periodic
+                0x0000000000019b0e                uip_ds6_list_loop
+                0x0000000000019bce                uip_ds6_prefix_add
+                0x0000000000019c7a                uip_ds6_prefix_rm
+                0x0000000000019c8d                uip_ds6_prefix_lookup
+                0x0000000000019ccc                uip_ds6_is_addr_onlink
+                0x0000000000019d3f                uip_ds6_addr_add
+                0x0000000000019e5f                uip_ds6_addr_rm
+                0x0000000000019f08                uip_ds6_addr_lookup
+                0x0000000000019f41                uip_ds6_get_link_local
+                0x0000000000019fc2                uip_ds6_get_global
+                0x000000000001a043                uip_ds6_maddr_add
+                0x000000000001a0a3                uip_ds6_maddr_rm
+                0x000000000001a0b6                uip_ds6_maddr_lookup
+                0x000000000001a0ef                uip_ds6_aaddr_add
+                0x000000000001a14f                uip_ds6_aaddr_rm
+                0x000000000001a162                uip_ds6_aaddr_lookup
+                0x000000000001a19b                uip_ds6_select_src
+                0x000000000001a2e4                uip_ds6_set_addr_iid
+                0x000000000001a30f                uip_ds6_set_lladdr_from_iid
+                0x000000000001a338                get_match_length
+                0x000000000001a3c9                uip_ds6_compute_reachable_time
+ .text          0x000000000001a401      0x9d5 obj_cooja/mtype966.a(tcp-socket.o)
+                0x000000000001aa4c                tcp_socket_register
+                0x000000000001aadd                tcp_socket_connect
+                0x000000000001ab74                tcp_socket_listen
+                0x000000000001abeb                tcp_socket_unlisten
+                0x000000000001ac5f                tcp_socket_send
+                0x000000000001acff                tcp_socket_send_str
+                0x000000000001ad27                tcp_socket_close
+                0x000000000001ad50                tcp_socket_unregister
+                0x000000000001adaa                tcp_socket_max_sendlen
+                0x000000000001adc7                tcp_socket_queuelen
+ .text          0x000000000001add6      0xa72 obj_cooja/mtype966.a(tcpip.o)
+                0x000000000001adf0                tcpip_output
+                0x000000000001aed4                tcp_connect
+                0x000000000001af2c                tcp_unlisten
+                0x000000000001af8c                tcp_listen
+                0x000000000001afea                tcp_attach
+                0x000000000001b002                udp_attach
+                0x000000000001b01a                udp_new
+                0x000000000001b064                udp_broadcast_new
+                0x000000000001b2e9                tcpip_input
+                0x000000000001b489                tcpip_ipv6_output
+                0x000000000001b69d                tcpip_poll_udp
+                0x000000000001b6bb                tcpip_poll_tcp
+                0x000000000001b6d9                tcpip_uipcall
+ .text          0x000000000001b848      0x35b obj_cooja/mtype966.a(uip-ds6-route.o)
+                0x000000000001b899                uip_ds6_route_init
+                0x000000000001b8c3                uip_ds6_route_nexthop
+                0x000000000001b8cd                uip_ds6_route_head
+                0x000000000001b8d7                uip_ds6_route_next
+                0x000000000001b8e1                uip_ds6_route_is_nexthop
+                0x000000000001b8eb                uip_ds6_route_num_routes
+                0x000000000001b8f5                uip_ds6_route_lookup
+                0x000000000001b8ff                uip_ds6_route_add
+                0x000000000001b912                uip_ds6_route_rm
+                0x000000000001b918                uip_ds6_route_rm_by_nexthop
+                0x000000000001b91e                uip_ds6_defrt_head
+                0x000000000001b937                uip_ds6_defrt_add
+                0x000000000001b9e5                uip_ds6_defrt_rm
+                0x000000000001ba4b                uip_ds6_defrt_lookup
+                0x000000000001bab2                uip_ds6_defrt_choose
+                0x000000000001bb28                uip_ds6_defrt_periodic
+ .text          0x000000000001bba3     0x2802 obj_cooja/mtype966.a(uip6.o)
+                0x000000000001bba3                uip_add32
+                0x000000000001bd3d                uip_chksum
+                0x000000000001be1e                uip_icmp6chksum
+                0x000000000001be33                uip_tcpchksum
+                0x000000000001be48                uip_udpchksum
+                0x000000000001be5d                uip_init
+                0x000000000001bee8                uip_connect
+                0x000000000001c071                remove_ext_hdr
+                0x000000000001c156                uip_udp_new
+                0x000000000001c278                uip_unlisten
+                0x000000000001c2ba                uip_listen
+                0x000000000001c55b                uip_process
+                0x000000000001e2a0                uip_htons
+                0x000000000001e2c2                uip_htonl
+                0x000000000001e300                uip_send
+ .text          0x000000000001e3a5      0x374 obj_cooja/mtype966.a(uip-ds6-nbr.o)
+                0x000000000001e3a5                uip_ds6_neighbors_init
+                0x000000000001e3c9                uip_ds6_nbr_add
+                0x000000000001e44f                uip_ds6_nbr_rm
+                0x000000000001e49a                uip_ds6_nbr_update_ll
+                0x000000000001e588                uip_ds6_nbr_get_ipaddr
+                0x000000000001e59d                uip_ds6_nbr_get_ll
+                0x000000000001e5b9                uip_ds6_nbr_num
+                0x000000000001e602                uip_ds6_nbr_head
+                0x000000000001e61b                uip_ds6_nbr_next
+                0x000000000001e637                uip_ds6_nbr_lookup
+                0x000000000001e69a                uip_ds6_nbr_ll_lookup
+                0x000000000001e6b6                uip_ds6_nbr_ipaddr_from_lladdr
+                0x000000000001e6df                uip_ds6_nbr_lladdr_from_ipaddr
+                0x000000000001e713                uip_ds6_link_callback
+ .text          0x000000000001e719      0x6b5 obj_cooja/mtype966.a(uip-nd6.o)
+                0x000000000001edb5                uip_nd6_init
+ .text          0x000000000001edce     0x2a78 obj_cooja/mtype966.a(sicslowpan.o)
+                0x000000000001f2cc                netstack_sniffer_add
+                0x000000000001f2da                netstack_sniffer_remove
+                0x0000000000021812                sicslowpan_init
+                0x000000000002183c                sicslowpan_get_last_rssi
+ .text          0x0000000000021846      0x4d1 obj_cooja/mtype966.a(uiplib.o)
+                0x0000000000021846                uiplib_ip6addrconv
+                0x00000000000219fe                uiplib_ip4addrconv
+                0x0000000000021ac1                uiplib_ipaddr_print
+                0x0000000000021b14                uiplib_ipaddr_snprint
+ .text          0x0000000000021d17      0x4c9 obj_cooja/mtype966.a(rpl.o)
+                0x0000000000021d17                rpl_lollipop_greater_than
+                0x0000000000021d71                rpl_get_global_address
+                0x0000000000021e69                rpl_link_callback
+                0x0000000000021ead                rpl_has_joined
+                0x0000000000021ed2                rpl_is_reachable
+                0x0000000000021f53                rpl_reset_prefix
+                0x0000000000021fbd                rpl_set_prefix_from_addr
+                0x00000000000220a2                rpl_set_prefix
+                0x00000000000221bc                rpl_set_leaf_only
+                0x00000000000221d4                rpl_get_leaf_only
+ .text          0x00000000000221e0     0x13cb obj_cooja/mtype966.a(rpl-icmp6.o)
+                0x0000000000022305                rpl_icmp6_update_nbr_table
+                0x000000000002239e                rpl_icmp6_dis_output
+                0x00000000000229f4                rpl_icmp6_dio_output
+                0x0000000000023201                rpl_icmp6_dao_output
+                0x00000000000234f2                rpl_icmp6_dao_ack_output
+                0x0000000000023562                rpl_icmp6_init
+ .text          0x00000000000235ab      0xe51 obj_cooja/mtype966.a(rpl-dag.o)
+                0x00000000000235ab                rpl_dag_state_to_str
+                0x00000000000235ea                rpl_dag_get_root_ipaddr
+                0x0000000000023632                rpl_dag_leave
+                0x00000000000236bb                rpl_dag_poison_and_leave
+                0x00000000000236d3                rpl_dag_periodic
+                0x000000000002375b                rpl_is_addr_in_our_dag
+                0x000000000002379f                rpl_get_default_instance
+                0x00000000000237bb                rpl_get_any_dag
+                0x0000000000023814                rpl_refresh_routes
+                0x0000000000023854                rpl_global_repair
+                0x00000000000238e0                rpl_local_repair
+                0x000000000002392a                rpl_dag_ready_to_advertise
+                0x000000000002396d                rpl_dag_update_state
+                0x0000000000024091                rpl_process_dio
+                0x0000000000024112                rpl_process_dis
+                0x0000000000024157                rpl_process_dao
+                0x00000000000241e6                rpl_process_dao_ack
+                0x0000000000024278                rpl_process_hbh
+                0x00000000000242c8                rpl_dag_init_root
+                0x00000000000243dc                rpl_dag_init
+ .text          0x00000000000243fc      0x286 obj_cooja/mtype966.a(rpl-dag-root.o)
+                0x00000000000243fc                rpl_dag_root_print_links
+                0x000000000002454a                rpl_dag_root_set_prefix
+                0x0000000000024576                rpl_dag_root_start
+                0x0000000000024653                rpl_dag_root_is_root
+ .text          0x0000000000024682       0x1e obj_cooja/mtype966.a(watchdog.o)
+                0x0000000000024682                watchdog_init
+                0x0000000000024688                watchdog_start
+                0x000000000002468e                watchdog_periodic
+                0x0000000000024694                watchdog_stop
+                0x000000000002469a                watchdog_reboot
+ .text          0x00000000000246a0       0xb2 obj_cooja/mtype966.a(stimer.o)
+                0x00000000000246a0                stimer_set
+                0x00000000000246be                stimer_reset
+                0x00000000000246d6                stimer_restart
+                0x00000000000246eb                stimer_expired
+                0x0000000000024716                stimer_remaining
+                0x000000000002473a                stimer_elapsed
+ .text          0x0000000000024752      0x1b8 obj_cooja/mtype966.a(memb.o)
+                0x0000000000024752                memb_init
+                0x00000000000247a7                memb_alloc
+                0x000000000002480c                memb_free
+                0x0000000000024887                memb_inmemb
+                0x00000000000248c6                memb_numfree
+ .text          0x000000000002490a      0x2e7 obj_cooja/mtype966.a(queuebuf.o)
+                0x0000000000024914                queuebuf_init
+                0x000000000002493d                queuebuf_numfree
+                0x0000000000024955                queuebuf_new_from_packetbuf
+                0x00000000000249f4                queuebuf_update_attr_from_packetbuf
+                0x0000000000024a29                queuebuf_update_from_packetbuf
+                0x0000000000024a79                queuebuf_free
+                0x0000000000024ac2                queuebuf_to_packetbuf
+                0x0000000000024b2e                queuebuf_dataptr
+                0x0000000000024b68                queuebuf_datalen
+                0x0000000000024b8b                queuebuf_addr
+                0x0000000000024bc0                queuebuf_attr
+                0x0000000000024beb                queuebuf_debug_print
+ .text          0x0000000000024bf1      0x78b obj_cooja/mtype966.a(nbr-table.o)
+                0x000000000002506a                nbr_table_register
+                0x00000000000250d7                nbr_table_is_registered
+                0x0000000000025112                nbr_table_head
+                0x000000000002516d                nbr_table_next
+                0x00000000000251ce                nbr_table_add_lladdr
+                0x0000000000025298                nbr_table_get_from_lladdr
+                0x00000000000252e4                nbr_table_remove
+                0x000000000002531c                nbr_table_lock
+                0x0000000000025336                nbr_table_unlock
+                0x0000000000025350                nbr_table_get_lladdr
+ .text          0x000000000002537c      0x37c obj_cooja/mtype966.a(link-stats.o)
+                0x000000000002537c                link_stats_from_lladdr
+                0x0000000000025398                link_stats_is_fresh
+                0x00000000000253d4                guess_etx_from_rssi
+                0x0000000000025450                link_stats_packet_sent
+                0x0000000000025563                link_stats_input_callback
+                0x0000000000025673                link_stats_reset
+                0x00000000000256c3                link_stats_init
+ .text          0x00000000000256f8      0x187 obj_cooja/mtype966.a(mac-sequence.o)
+                0x00000000000256f8                mac_sequence_is_duplicate
+                0x0000000000025798                mac_sequence_register_seqno
+ .text          0x000000000002587f       0x23 obj_cooja/mtype966.a(mac.o)
+                0x000000000002587f                mac_call_sent_callback
+ .text          0x00000000000258a2      0x41d obj_cooja/mtype966.a(framer-802154.o)
+                0x0000000000025a31                framer_802154_setup_params
+ .text          0x0000000000025cbf      0xb6f obj_cooja/mtype966.a(frame802154.o)
+                0x0000000000025cf0                frame802154_get_pan_id
+                0x0000000000025cfc                frame802154_set_pan_id
+                0x0000000000025d16                frame802154_has_panid
+                0x0000000000025ec5                frame802154_check_dest_panid
+                0x0000000000025f4d                frame802154_is_broadcast_addr
+                0x0000000000025f9a                frame802154_extract_linkaddr
+                0x00000000000261ff                frame802154_hdrlen
+                0x0000000000026272                frame802154_create_fcf
+                0x000000000002632a                frame802154_create
+                0x000000000002649f                frame802154_parse_fcf
+                0x0000000000026581                frame802154_parse
+ .text          0x000000000002682e      0x1ec obj_cooja/mtype966.a(uipbuf.o)
+                0x000000000002682e                uipbuf_get_next_header
+                0x000000000002689d                uipbuf_get_last_header
+                0x0000000000026924                uipbuf_get_attr
+                0x000000000002694b                uipbuf_set_attr
+                0x0000000000026982                uipbuf_clear_attr
+                0x00000000000269ae                uipbuf_set_attr_flag
+                0x00000000000269cf                uipbuf_clr_attr_flag
+                0x00000000000269f6                uipbuf_is_attr_flag
+ .text          0x0000000000026a1a      0x96e obj_cooja/mtype966.a(uip-icmp6.o)
+                0x0000000000026a8f                uip_icmp6_input
+                0x0000000000026ae6                uip_icmp6_register_input_handler
+                0x0000000000026cf2                uip_icmp6_error_output
+                0x0000000000027051                uip_icmp6_send
+                0x0000000000027310                uip_icmp6_echo_reply_callback_add
+                0x0000000000027342                uip_icmp6_echo_reply_callback_rm
+                0x000000000002735f                uip_icmp6_init
+ .text          0x0000000000027388      0x69b obj_cooja/mtype966.a(uip-sr.o)
+                0x0000000000027388                uip_sr_num_nodes
+                0x0000000000027416                uip_sr_get_node
+                0x000000000002746d                uip_sr_is_addr_reachable
+                0x000000000002751b                uip_sr_expire_parent
+                0x0000000000027564                uip_sr_update_node
+                0x0000000000027694                uip_sr_init
+                0x00000000000276c8                uip_sr_node_head
+                0x00000000000276e1                uip_sr_node_next
+                0x00000000000276f7                uip_sr_periodic
+                0x00000000000277fd                uip_sr_free_all
+                0x000000000002786d                uip_sr_link_snprint
+ .text          0x0000000000027a23      0x146 obj_cooja/mtype966.a(uip-packetqueue)
+                0x0000000000027a51                uip_packetqueue_new
+                0x0000000000027a60                uip_packetqueue_alloc
+                0x0000000000027abb                uip_packetqueue_free
+                0x0000000000027b02                uip_packetqueue_buf
+                0x0000000000027b1f                uip_packetqueue_buflen
+                0x0000000000027b40                uip_packetqueue_set_buflen
+ .text          0x0000000000027b69      0x1c8 obj_cooja/mtype966.a(rpl-nbr-policy.)
+                0x0000000000027cee                rpl_nbr_policy_find_removable
+ .text          0x0000000000027d31      0x8ed obj_cooja/mtype966.a(rpl-neighbor.o)
+                0x0000000000027dad                rpl_neighbor_snprint
+                0x000000000002805a                rpl_neighbor_print_list
+                0x000000000002810f                rpl_neighbor_count
+                0x00000000000281b6                rpl_neighbor_get_from_lladdr
+                0x00000000000281d2                rpl_neighbor_is_acceptable_parent
+                0x0000000000028206                rpl_neighbor_get_link_metric
+                0x000000000002823a                rpl_neighbor_rank_via_nbr
+                0x000000000002826e                rpl_neighbor_get_lladdr
+                0x000000000002828a                rpl_neighbor_get_ipaddr
+                0x00000000000282b1                rpl_neighbor_get_link_stats
+                0x00000000000282d8                rpl_neighbor_is_fresh
+                0x00000000000282ff                rpl_neighbor_is_reachable
+                0x000000000002834a                rpl_neighbor_is_parent
+                0x0000000000028374                rpl_neighbor_set_preferred_parent
+                0x0000000000028400                rpl_neighbor_remove_all
+                0x000000000002844f                rpl_neighbor_get_from_ipaddr
+                0x0000000000028553                rpl_neighbor_select_best
+                0x00000000000285ff                rpl_neighbor_init
+ .text          0x000000000002861e      0xa19 obj_cooja/mtype966.a(rpl-timers.o)
+                0x000000000002861e                rpl_timers_schedule_periodic_dis
+                0x000000000002876c                rpl_timers_dio_reset
+                0x000000000002885d                rpl_timers_schedule_unicast_dio
+                0x00000000000289e3                rpl_timers_schedule_dao
+                0x0000000000028b1d                rpl_timers_schedule_dao_ack
+                0x0000000000028ba3                get_probing_delay
+                0x0000000000028bd7                get_probing_target
+                0x0000000000028dc1                rpl_schedule_probing
+                0x0000000000028def                rpl_schedule_probing_now
+                0x0000000000028e59                rpl_timers_unschedule_leaving
+                0x0000000000028e91                rpl_timers_schedule_leaving
+                0x0000000000028ed2                rpl_timers_init
+                0x0000000000028f62                rpl_timers_stop_dag_timers
+                0x0000000000028fdb                rpl_timers_unschedule_state_update
+                0x0000000000028fff                rpl_timers_schedule_state_update
+ .text          0x0000000000029037     0x102c obj_cooja/mtype966.a(rpl-ext-header.)
+                0x0000000000029037                rpl_ext_header_srh_get_next_hop
+                0x00000000000291b3                rpl_ext_header_srh_update
+                0x00000000000298ac                rpl_ext_header_hbh_update
+                0x0000000000029e01                rpl_ext_header_update
+                0x0000000000029e8a                rpl_ext_header_remove
+ .text          0x000000000002a063      0x31b obj_cooja/mtype966.a(rpl-mrhof.o)
+ .text          0x000000000002a37e        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtendS.o
+ .text          0x000000000002a37e        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000002a380       0x14
+ *(SORT(.fini))
+ .fini          0x000000000002a380        0xf /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+                0x000000000002a380                _fini
+ .fini          0x000000000002a38f        0x5 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x000000000002a3a0      0xb80
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000002a3a0      0x402 mqtt-demo.o
+                0x000000000002a3a8                autostart_processes
+ *fill*         0x000000000002a7a2        0x2 
+ .rodata        0x000000000002a7a4        0x8 obj_cooja/mtype966.a(beep.o)
+                0x000000000002a7a4                beep_interface
+ .rodata        0x000000000002a7ac       0x20 obj_cooja/mtype966.a(button-sensor.o)
+                0x000000000002a7ac                button_interface
+                0x000000000002a7bc                button_sensor
+ .rodata        0x000000000002a7cc        0x8 obj_cooja/mtype966.a(leds-arch.o)
+                0x000000000002a7cc                leds_interface
+ .rodata        0x000000000002a7d4        0x8 obj_cooja/mtype966.a(moteid.o)
+                0x000000000002a7d4                moteid_interface
+ .rodata        0x000000000002a7dc       0x1c obj_cooja/mtype966.a(pir-sensor.o)
+                0x000000000002a7dc                pir_interface
+                0x000000000002a7e8                pir_sensor
+ .rodata        0x000000000002a7f8        0xe obj_cooja/mtype966.a(rs232.o)
+                0x000000000002a7f8                rs232_interface
+ *fill*         0x000000000002a806        0x2 
+ .rodata        0x000000000002a808       0x24 obj_cooja/mtype966.a(vib-sensor.o)
+                0x000000000002a808                vib_interface
+                0x000000000002a81c                vib_sensor
+ .rodata        0x000000000002a82c        0x8 obj_cooja/mtype966.a(clock.o)
+                0x000000000002a82c                clock_interface
+ .rodata        0x000000000002a834        0x8 obj_cooja/mtype966.a(cooja-log.o)
+                0x000000000002a834                simlog_interface
+ .rodata        0x000000000002a83c       0x2f obj_cooja/mtype966.a(cfs-cooja.o)
+                0x000000000002a83c                cfs_interface
+ *fill*         0x000000000002a86b       0x15 
+ .rodata        0x000000000002a880       0x58 obj_cooja/mtype966.a(cooja-radio.o)
+                0x000000000002a880                radio_interface
+                0x000000000002a8a0                cooja_radio_driver
+ .rodata        0x000000000002a8d8        0x8 obj_cooja/mtype966.a(eeprom.o)
+                0x000000000002a8d8                eeprom_interface
+ .rodata        0x000000000002a8e0        0x8 obj_cooja/mtype966.a(sensors.o)
+ .rodata        0x000000000002a8e8       0x14 obj_cooja/mtype966.a(mqtt.o)
+ .rodata        0x000000000002a8fc       0xf8 obj_cooja/mtype966.a(contiki-main.o)
+ .rodata        0x000000000002a9f4        0xf obj_cooja/mtype966.a(ctimer.o)
+ .rodata        0x000000000002aa03        0xc obj_cooja/mtype966.a(etimer.o)
+ *fill*         0x000000000002aa0f        0x1 
+ .rodata        0x000000000002aa10       0xc0 obj_cooja/mtype966.a(log.o)
+ .rodata        0x000000000002aad0        0xe obj_cooja/mtype966.a(serial-line.o)
+ *fill*         0x000000000002aade        0x2 
+ .rodata        0x000000000002aae0        0x8 obj_cooja/mtype966.a(linkaddr.o)
+                0x000000000002aae0                linkaddr_null
+ .rodata        0x000000000002aae8       0x20 obj_cooja/mtype966.a(csma.o)
+                0x000000000002aaf0                csma_driver
+ .rodata        0x000000000002ab08       0x13 obj_cooja/mtype966.a(tcp-socket.o)
+ .rodata        0x000000000002ab1b        0xd obj_cooja/mtype966.a(tcpip.o)
+ .rodata        0x000000000002ab28       0x4d obj_cooja/mtype966.a(uip-ds6-route.o)
+ *fill*         0x000000000002ab75        0x3 
+ .rodata        0x000000000002ab78      0x13c obj_cooja/mtype966.a(uip6.o)
+ .rodata        0x000000000002acb4       0x30 obj_cooja/mtype966.a(sicslowpan.o)
+                0x000000000002acb4                unc_llconf
+                0x000000000002acb8                unc_ctxconf
+                0x000000000002acbc                unc_mxconf
+                0x000000000002acc0                llprefix
+                0x000000000002acd4                sicslowpan_driver
+ .rodata        0x000000000002ace4       0x2d obj_cooja/mtype966.a(uiplib.o)
+ *fill*         0x000000000002ad11        0xf 
+ .rodata        0x000000000002ad20       0x70 obj_cooja/mtype966.a(rpl.o)
+                0x000000000002ad40                rpl_lite_driver
+ .rodata        0x000000000002ad90       0xdb obj_cooja/mtype966.a(rpl-dag.o)
+ *fill*         0x000000000002ae6b        0x1 
+ .rodata        0x000000000002ae6c        0xc obj_cooja/mtype966.a(framer-802154.o)
+                0x000000000002ae6c                framer_802154
+ .rodata        0x000000000002ae78       0x44 obj_cooja/mtype966.a(uip-sr.o)
+ .rodata        0x000000000002aebc       0x58 obj_cooja/mtype966.a(rpl-neighbor.o)
+ .rodata        0x000000000002af14        0xc obj_cooja/mtype966.a(rpl-timers.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000002af20     0x1664
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000002af20     0x1664 mqtt-demo.o
+                0x000000000002af20                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000002c584     0x5aac
+ *(.eh_frame)
+ .eh_frame      0x000000000002c584       0x3c /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000002c5c0      0x1fc mqtt-demo.o
+                                        0x214 (size before relaxing)
+ .eh_frame      0x000000000002c7bc      0x178 obj_cooja/mtype966.o
+                                        0x190 (size before relaxing)
+ .eh_frame      0x000000000002c934       0x40 obj_cooja/mtype966.a(simEnvChange.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000002c974       0x60 obj_cooja/mtype966.a(cooja_mt.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000002c9d4       0x80 obj_cooja/mtype966.a(cooja_mtarch.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000002ca54       0xc8 obj_cooja/mtype966.a(rtimer-arch.o)
+                                         0xe0 (size before relaxing)
+ .eh_frame      0x000000000002cb1c      0x160 obj_cooja/mtype966.a(beep.o)
+                                        0x178 (size before relaxing)
+ .eh_frame      0x000000000002cc7c       0xa0 obj_cooja/mtype966.a(button-sensor.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000002cd1c       0xa0 obj_cooja/mtype966.a(leds-arch.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000002cdbc       0x40 obj_cooja/mtype966.a(moteid.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000002cdfc       0xa0 obj_cooja/mtype966.a(pir-sensor.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000002ce9c      0x100 obj_cooja/mtype966.a(rs232.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x000000000002cf9c       0xa0 obj_cooja/mtype966.a(vib-sensor.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000002d03c       0xc0 obj_cooja/mtype966.a(clock.o)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x000000000002d0fc      0x120 obj_cooja/mtype966.a(cooja-log.o)
+                                        0x138 (size before relaxing)
+ .eh_frame      0x000000000002d21c      0x160 obj_cooja/mtype966.a(cfs-cooja.o)
+                                        0x178 (size before relaxing)
+ .eh_frame      0x000000000002d37c      0x340 obj_cooja/mtype966.a(cooja-radio.o)
+                                        0x358 (size before relaxing)
+ .eh_frame      0x000000000002d6bc       0xa0 obj_cooja/mtype966.a(eeprom.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000002d75c       0x40 obj_cooja/mtype966.a(random.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000002d79c       0xc0 obj_cooja/mtype966.a(sensors.o)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x000000000002d85c       0xe0 obj_cooja/mtype966.a(leds.o)
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x000000000002d93c      0x4a4 obj_cooja/mtype966.a(mqtt.o)
+                                        0x4bc (size before relaxing)
+ .eh_frame      0x000000000002dde0       0x30 obj_cooja/mtype966.a(contiki-main.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x000000000002de10       0x40 obj_cooja/mtype966.a(autostart.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000002de50      0x100 obj_cooja/mtype966.a(ctimer.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x000000000002df50       0x60 obj_cooja/mtype966.a(energest.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000002dfb0      0x1e0 obj_cooja/mtype966.a(etimer.o)
+                                        0x1f8 (size before relaxing)
+ .eh_frame      0x000000000002e190      0x100 obj_cooja/mtype966.a(log.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x000000000002e290      0x1c4 obj_cooja/mtype966.a(process.o)
+                                        0x1dc (size before relaxing)
+ .eh_frame      0x000000000002e454       0x60 obj_cooja/mtype966.a(rtimer.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000002e4b4       0x20 obj_cooja/mtype966.a(node-id.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x000000000002e4d4       0xa4 obj_cooja/mtype966.a(timer.o)
+                                         0xbc (size before relaxing)
+ .eh_frame      0x000000000002e578       0x60 obj_cooja/mtype966.a(serial-line.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000002e5d8      0x1a0 obj_cooja/mtype966.a(list.o)
+                                        0x1b8 (size before relaxing)
+ .eh_frame      0x000000000002e778       0xa0 obj_cooja/mtype966.a(ringbuf.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000002e818      0x28c obj_cooja/mtype966.a(packetbuf.o)
+                                        0x2a4 (size before relaxing)
+ .eh_frame      0x000000000002eaa4       0x80 obj_cooja/mtype966.a(netstack.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000002eb24       0x60 obj_cooja/mtype966.a(linkaddr.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000002eb84       0xa0 obj_cooja/mtype966.a(csma.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000002ec24      0x1d4 obj_cooja/mtype966.a(csma-output.o)
+                                        0x1ec (size before relaxing)
+ .eh_frame      0x000000000002edf8      0x2e8 obj_cooja/mtype966.a(uip-ds6.o)
+                                        0x300 (size before relaxing)
+ .eh_frame      0x000000000002f0e0      0x248 obj_cooja/mtype966.a(tcp-socket.o)
+                                        0x260 (size before relaxing)
+ .eh_frame      0x000000000002f328      0x308 obj_cooja/mtype966.a(tcpip.o)
+                                        0x320 (size before relaxing)
+ .eh_frame      0x000000000002f630      0x220 obj_cooja/mtype966.a(uip-ds6-route.o)
+                                        0x238 (size before relaxing)
+ .eh_frame      0x000000000002f850      0x274 obj_cooja/mtype966.a(uip6.o)
+                                        0x28c (size before relaxing)
+ .eh_frame      0x000000000002fac4      0x1c0 obj_cooja/mtype966.a(uip-ds6-nbr.o)
+                                        0x1d8 (size before relaxing)
+ .eh_frame      0x000000000002fc84       0x84 obj_cooja/mtype966.a(uip-nd6.o)
+                                         0x9c (size before relaxing)
+ .eh_frame      0x000000000002fd08      0x2f8 obj_cooja/mtype966.a(sicslowpan.o)
+                                        0x310 (size before relaxing)
+ .eh_frame      0x0000000000030000       0x88 obj_cooja/mtype966.a(uiplib.o)
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x0000000000030088      0x1e0 obj_cooja/mtype966.a(rpl.o)
+                                        0x1f8 (size before relaxing)
+ .eh_frame      0x0000000000030268      0x1c4 obj_cooja/mtype966.a(rpl-icmp6.o)
+                                        0x1dc (size before relaxing)
+ .eh_frame      0x000000000003042c      0x370 obj_cooja/mtype966.a(rpl-dag.o)
+                                        0x388 (size before relaxing)
+ .eh_frame      0x000000000003079c       0xa0 obj_cooja/mtype966.a(rpl-dag-root.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x000000000003083c       0xa0 obj_cooja/mtype966.a(watchdog.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x00000000000308dc       0xc4 obj_cooja/mtype966.a(stimer.o)
+                                         0xdc (size before relaxing)
+ .eh_frame      0x00000000000309a0       0xa0 obj_cooja/mtype966.a(memb.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000030a40      0x1a0 obj_cooja/mtype966.a(queuebuf.o)
+                                        0x1b8 (size before relaxing)
+ .eh_frame      0x0000000000030be0      0x2ac obj_cooja/mtype966.a(nbr-table.o)
+                                        0x2c4 (size before relaxing)
+ .eh_frame      0x0000000000030e8c      0x100 obj_cooja/mtype966.a(link-stats.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x0000000000030f8c       0x48 obj_cooja/mtype966.a(mac-sequence.o)
+                                         0x60 (size before relaxing)
+ .eh_frame      0x0000000000030fd4       0x20 obj_cooja/mtype966.a(mac.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000030ff4       0xa4 obj_cooja/mtype966.a(framer-802154.o)
+                                         0xbc (size before relaxing)
+ .eh_frame      0x0000000000031098      0x1a4 obj_cooja/mtype966.a(frame802154.o)
+                                        0x1bc (size before relaxing)
+ .eh_frame      0x000000000003123c      0x100 obj_cooja/mtype966.a(uipbuf.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x000000000003133c      0x160 obj_cooja/mtype966.a(uip-icmp6.o)
+                                        0x178 (size before relaxing)
+ .eh_frame      0x000000000003149c      0x184 obj_cooja/mtype966.a(uip-sr.o)
+                                        0x19c (size before relaxing)
+ .eh_frame      0x0000000000031620       0xe0 obj_cooja/mtype966.a(uip-packetqueue)
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x0000000000031700       0x80 obj_cooja/mtype966.a(rpl-nbr-policy.)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000031780      0x2d4 obj_cooja/mtype966.a(rpl-neighbor.o)
+                                        0x2ec (size before relaxing)
+ .eh_frame      0x0000000000031a54      0x368 obj_cooja/mtype966.a(rpl-timers.o)
+                                        0x380 (size before relaxing)
+ .eh_frame      0x0000000000031dbc      0x128 obj_cooja/mtype966.a(rpl-ext-header.)
+                                        0x140 (size before relaxing)
+ .eh_frame      0x0000000000031ee4      0x148 obj_cooja/mtype966.a(rpl-mrhof.o)
+                                        0x160 (size before relaxing)
+ .eh_frame      0x000000000003202c        0x4 /usr/lib/gcc/i686-linux-gnu/5/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000033f10                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000033f10        0x4
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000033f10        0x4 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+
+.fini_array     0x0000000000033f14        0x4
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000033f14        0x4 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000033f18        0x4
+ *(.jcr)
+ .jcr           0x0000000000033f18        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ .jcr           0x0000000000033f18        0x4 /usr/lib/gcc/i686-linux-gnu/5/crtendS.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000033f1c       0xd0
+ *(.dynamic)
+ .dynamic       0x0000000000033f1c       0xd0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+                0x0000000000033f1c                _DYNAMIC
+
+.got            0x0000000000033fec       0x14
+ *(.got)
+ .got           0x0000000000033fec       0x14 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000034ff4                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000000000034000        0xc
+ *(.got.plt)
+ .got.plt       0x0000000000034000        0xc /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+                0x0000000000034000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000034020      0x324
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000034020        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ .data          0x0000000000034020        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ .data.rel.local
+                0x0000000000034020        0x4 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+                0x0000000000034020                __dso_handle
+ .data          0x0000000000034024       0x18 mqtt-demo.o
+                0x000000000003402c                mqtt_demo_process
+ *fill*         0x000000000003403c        0x4 
+ .data          0x0000000000034040       0x44 obj_cooja/mtype966.o
+                0x0000000000034040                simInterfaces
+                0x0000000000034074                sensors
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(simEnvChange.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(cooja_mt.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(cooja_mtarch.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(rtimer-arch.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(beep.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(button-sensor.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(leds-arch.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(moteid.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(pir-sensor.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(rs232.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(vib-sensor.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(clock.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(cooja-log.o)
+ .data          0x0000000000034084        0x0 obj_cooja/mtype966.a(cfs-cooja.o)
+ .data          0x0000000000034084       0x2c obj_cooja/mtype966.a(cooja-radio.o)
+                0x0000000000034084                simRadioHWOn
+                0x0000000000034088                simSignalStrength
+                0x000000000003408c                simLastSignalStrength
+                0x0000000000034090                simPower
+                0x0000000000034094                simRadioChannel
+                0x0000000000034098                simLQI
+                0x00000000000340a0                cooja_radio_process
+ .data          0x00000000000340b0        0x0 obj_cooja/mtype966.a(eeprom.o)
+ .data          0x00000000000340b0        0x0 obj_cooja/mtype966.a(random.o)
+ .data          0x00000000000340b0       0x10 obj_cooja/mtype966.a(sensors.o)
+                0x00000000000340b0                sensors_process
+ .data          0x00000000000340c0        0x0 obj_cooja/mtype966.a(leds.o)
+ .data          0x00000000000340c0       0x14 obj_cooja/mtype966.a(mqtt.o)
+                0x00000000000340c4                mqtt_process
+ .data          0x00000000000340d4        0x0 obj_cooja/mtype966.a(contiki-main.o)
+ .data          0x00000000000340d4        0x0 obj_cooja/mtype966.a(autostart.o)
+ .data          0x00000000000340d4       0x14 obj_cooja/mtype966.a(ctimer.o)
+                0x00000000000340d8                ctimer_process
+ .data          0x00000000000340e8        0x0 obj_cooja/mtype966.a(energest.o)
+ .data          0x00000000000340e8       0x10 obj_cooja/mtype966.a(etimer.o)
+                0x00000000000340e8                etimer_process
+ *fill*         0x00000000000340f8        0x8 
+ .data          0x0000000000034100       0xb0 obj_cooja/mtype966.a(log.o)
+                0x0000000000034100                curr_log_level_main
+                0x0000000000034120                all_modules
+ .data          0x00000000000341b0        0x0 obj_cooja/mtype966.a(process.o)
+ .data          0x00000000000341b0        0x0 obj_cooja/mtype966.a(rtimer.o)
+ .data          0x00000000000341b0        0x0 obj_cooja/mtype966.a(node-id.o)
+ .data          0x00000000000341b0        0x0 obj_cooja/mtype966.a(timer.o)
+ .data          0x00000000000341b0       0x10 obj_cooja/mtype966.a(serial-line.o)
+                0x00000000000341b0                serial_line_process
+ .data          0x00000000000341c0        0x0 obj_cooja/mtype966.a(list.o)
+ .data          0x00000000000341c0        0x0 obj_cooja/mtype966.a(ringbuf.o)
+ .data          0x00000000000341c0        0x4 obj_cooja/mtype966.a(packetbuf.o)
+ .data          0x00000000000341c4        0x4 obj_cooja/mtype966.a(netstack.o)
+ .data          0x00000000000341c8        0x0 obj_cooja/mtype966.a(linkaddr.o)
+ .data          0x00000000000341c8        0x0 obj_cooja/mtype966.a(csma.o)
+ .data          0x00000000000341c8       0x28 obj_cooja/mtype966.a(csma-output.o)
+ .data          0x00000000000341f0        0x0 obj_cooja/mtype966.a(uip-ds6.o)
+ .data          0x00000000000341f0       0x14 obj_cooja/mtype966.a(tcp-socket.o)
+                0x00000000000341f4                tcp_socket_process
+ .data          0x0000000000034204       0x10 obj_cooja/mtype966.a(tcpip.o)
+                0x0000000000034204                tcpip_process
+ .data          0x0000000000034214       0x10 obj_cooja/mtype966.a(uip-ds6-route.o)
+ .data          0x0000000000034224        0x0 obj_cooja/mtype966.a(uip6.o)
+ .data          0x0000000000034224       0x14 obj_cooja/mtype966.a(uip-ds6-nbr.o)
+                0x0000000000034234                ds6_neighbors
+ .data          0x0000000000034238        0xc obj_cooja/mtype966.a(uip-nd6.o)
+ .data          0x0000000000034244        0x0 obj_cooja/mtype966.a(sicslowpan.o)
+ .data          0x0000000000034244        0x0 obj_cooja/mtype966.a(uiplib.o)
+ .data          0x0000000000034244        0x0 obj_cooja/mtype966.a(rpl.o)
+ .data          0x0000000000034244       0x30 obj_cooja/mtype966.a(rpl-icmp6.o)
+ .data          0x0000000000034274        0x0 obj_cooja/mtype966.a(rpl-dag.o)
+ .data          0x0000000000034274        0x0 obj_cooja/mtype966.a(rpl-dag-root.o)
+ .data          0x0000000000034274        0x0 obj_cooja/mtype966.a(watchdog.o)
+ .data          0x0000000000034274        0x0 obj_cooja/mtype966.a(stimer.o)
+ .data          0x0000000000034274        0x0 obj_cooja/mtype966.a(memb.o)
+ .data          0x0000000000034274       0x18 obj_cooja/mtype966.a(queuebuf.o)
+ .data          0x000000000003428c       0x10 obj_cooja/mtype966.a(nbr-table.o)
+ .data          0x000000000003429c       0x14 obj_cooja/mtype966.a(link-stats.o)
+ .data          0x00000000000342b0        0x0 obj_cooja/mtype966.a(mac-sequence.o)
+ .data          0x00000000000342b0        0x0 obj_cooja/mtype966.a(mac.o)
+ .data          0x00000000000342b0        0x0 obj_cooja/mtype966.a(framer-802154.o)
+ .data          0x00000000000342b0        0x2 obj_cooja/mtype966.a(frame802154.o)
+ .data          0x00000000000342b2        0x0 obj_cooja/mtype966.a(uipbuf.o)
+ *fill*         0x00000000000342b2        0x2 
+ .data          0x00000000000342b4       0x20 obj_cooja/mtype966.a(uip-icmp6.o)
+ .data          0x00000000000342d4       0x10 obj_cooja/mtype966.a(uip-sr.o)
+ .data          0x00000000000342e4        0xc obj_cooja/mtype966.a(uip-packetqueue)
+ .data          0x00000000000342f0        0x0 obj_cooja/mtype966.a(rpl-nbr-policy.)
+ .data          0x00000000000342f0       0x14 obj_cooja/mtype966.a(rpl-neighbor.o)
+                0x0000000000034300                rpl_neighbors
+ .data          0x0000000000034304        0x0 obj_cooja/mtype966.a(rpl-timers.o)
+ .data          0x0000000000034304        0x0 obj_cooja/mtype966.a(rpl-ext-header.)
+ *fill*         0x0000000000034304       0x1c 
+ .data          0x0000000000034320       0x24 obj_cooja/mtype966.a(rpl-mrhof.o)
+                0x0000000000034320                rpl_mrhof
+ .data          0x0000000000034344        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtendS.o
+ .data          0x0000000000034344        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x0000000000034344        0x0
+ .tm_clone_table
+                0x0000000000034344        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ .tm_clone_table
+                0x0000000000034344        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000034344                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x0000000000034344                . = .
+                0x0000000000034344                __bss_start = .
+
+.bss            0x0000000000034360    0x14640
+ *(.dynbss)
+ .dynbss        0x0000000000034360        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000034360        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o
+ .bss           0x0000000000034360        0x1 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+ *fill*         0x0000000000034361       0x1f 
+ .bss           0x0000000000034380      0xbb0 mqtt-demo.o
+ *fill*         0x0000000000034f30       0x10 
+ .bss           0x0000000000034f40     0x2030 obj_cooja/mtype966.o
+ .bss           0x0000000000036f70        0x1 obj_cooja/mtype966.a(simEnvChange.o)
+                0x0000000000036f70                simDontFallAsleep
+ *fill*         0x0000000000036f71        0x3 
+ .bss           0x0000000000036f74        0x4 obj_cooja/mtype966.a(cooja_mt.o)
+ .bss           0x0000000000036f78        0x4 obj_cooja/mtype966.a(cooja_mtarch.o)
+ .bss           0x0000000000036f7c        0x0 obj_cooja/mtype966.a(rtimer-arch.o)
+ .bss           0x0000000000036f7c        0x0 obj_cooja/mtype966.a(beep.o)
+ .bss           0x0000000000036f7c        0x8 obj_cooja/mtype966.a(button-sensor.o)
+ .bss           0x0000000000036f84        0x0 obj_cooja/mtype966.a(leds-arch.o)
+ .bss           0x0000000000036f84        0x0 obj_cooja/mtype966.a(moteid.o)
+ .bss           0x0000000000036f84        0x1 obj_cooja/mtype966.a(pir-sensor.o)
+                0x0000000000036f84                simPirValue
+ *fill*         0x0000000000036f85        0x3 
+ .bss           0x0000000000036f88        0x4 obj_cooja/mtype966.a(rs232.o)
+ .bss           0x0000000000036f8c        0x1 obj_cooja/mtype966.a(vib-sensor.o)
+                0x0000000000036f8c                simVibValue
+ .bss           0x0000000000036f8d        0x0 obj_cooja/mtype966.a(clock.o)
+ *fill*         0x0000000000036f8d       0x13 
+ .bss           0x0000000000036fa0     0x2020 obj_cooja/mtype966.a(cooja-log.o)
+ .bss           0x0000000000038fc0      0xfc0 obj_cooja/mtype966.a(cfs-cooja.o)
+                0x0000000000038fc0                simCFSData
+                0x0000000000039f60                simCFSSize
+                0x0000000000039f64                simCFSChanged
+                0x0000000000039f68                simCFSRead
+                0x0000000000039f6c                simCFSWritten
+ .bss           0x0000000000039f80       0x24 obj_cooja/mtype966.a(cooja-radio.o)
+                0x0000000000039f80                simReceiving
+                0x0000000000039f84                simInSize
+                0x0000000000039f88                simLastPacketTimestamp
+                0x0000000000039f90                simOutSize
+ .bss           0x0000000000039fa4        0xc obj_cooja/mtype966.a(eeprom.o)
+                0x0000000000039fa4                simEEPROMChanged
+                0x0000000000039fa8                simEEPROMRead
+                0x0000000000039fac                simEEPROMWritten
+ .bss           0x0000000000039fb0        0x0 obj_cooja/mtype966.a(random.o)
+ .bss           0x0000000000039fb0        0xc obj_cooja/mtype966.a(sensors.o)
+ .bss           0x0000000000039fbc        0x0 obj_cooja/mtype966.a(leds.o)
+ .bss           0x0000000000039fbc       0x15 obj_cooja/mtype966.a(mqtt.o)
+ .bss           0x0000000000039fd1        0x0 obj_cooja/mtype966.a(contiki-main.o)
+ .bss           0x0000000000039fd1        0x0 obj_cooja/mtype966.a(autostart.o)
+ *fill*         0x0000000000039fd1        0x3 
+ .bss           0x0000000000039fd4        0x5 obj_cooja/mtype966.a(ctimer.o)
+ .bss           0x0000000000039fd9        0x0 obj_cooja/mtype966.a(energest.o)
+ *fill*         0x0000000000039fd9        0x3 
+ .bss           0x0000000000039fdc        0x8 obj_cooja/mtype966.a(etimer.o)
+ .bss           0x0000000000039fe4       0x28 obj_cooja/mtype966.a(log.o)
+                0x0000000000039fe4                curr_log_level_rpl
+                0x0000000000039fe8                curr_log_level_tcpip
+                0x0000000000039fec                curr_log_level_ipv6
+                0x0000000000039ff0                curr_log_level_6lowpan
+                0x0000000000039ff4                curr_log_level_nullnet
+                0x0000000000039ff8                curr_log_level_mac
+                0x0000000000039ffc                curr_log_level_framer
+                0x000000000003a000                curr_log_level_6top
+                0x000000000003a004                curr_log_level_coap
+                0x000000000003a008                curr_log_level_lwm2m
+ *fill*         0x000000000003a00c       0x14 
+ .bss           0x000000000003a020      0x1a1 obj_cooja/mtype966.a(process.o)
+                0x000000000003a020                process_list
+                0x000000000003a024                process_current
+ *fill*         0x000000000003a1c1        0x3 
+ .bss           0x000000000003a1c4        0x4 obj_cooja/mtype966.a(rtimer.o)
+ .bss           0x000000000003a1c8        0x2 obj_cooja/mtype966.a(node-id.o)
+                0x000000000003a1c8                node_id
+ .bss           0x000000000003a1ca        0x0 obj_cooja/mtype966.a(timer.o)
+ *fill*         0x000000000003a1ca       0x16 
+ .bss           0x000000000003a1e0      0x140 obj_cooja/mtype966.a(serial-line.o)
+ .bss           0x000000000003a320        0x0 obj_cooja/mtype966.a(list.o)
+ .bss           0x000000000003a320        0x0 obj_cooja/mtype966.a(ringbuf.o)
+ .bss           0x000000000003a320       0xa0 obj_cooja/mtype966.a(packetbuf.o)
+ .bss           0x000000000003a3c0        0x4 obj_cooja/mtype966.a(netstack.o)
+ .bss           0x000000000003a3c4        0x0 obj_cooja/mtype966.a(linkaddr.o)
+ .bss           0x000000000003a3c4        0x0 obj_cooja/mtype966.a(csma.o)
+ *fill*         0x000000000003a3c4       0x1c 
+ .bss           0x000000000003a3e0      0x726 obj_cooja/mtype966.a(csma-output.o)
+ *fill*         0x000000000003ab06        0x2 
+ .bss           0x000000000003ab08       0x20 obj_cooja/mtype966.a(uip-ds6.o)
+ .bss           0x000000000003ab28        0x5 obj_cooja/mtype966.a(tcp-socket.o)
+ *fill*         0x000000000003ab2d       0x13 
+ .bss           0x000000000003ab40       0xc4 obj_cooja/mtype966.a(tcpip.o)
+ *fill*         0x000000000003ac04       0x1c 
+ .bss           0x000000000003ac20       0x60 obj_cooja/mtype966.a(uip-ds6-route.o)
+ .bss           0x000000000003ac80        0xc obj_cooja/mtype966.a(uip6.o)
+                0x000000000003ac80                uip_ext_bitmap
+                0x000000000003ac81                uip_ext_len
+                0x000000000003ac82                uip_ext_opt_offset
+ *fill*         0x000000000003ac8c       0x14 
+ .bss           0x000000000003aca0     0x1c20 obj_cooja/mtype966.a(uip-ds6-nbr.o)
+ .bss           0x000000000003c8c0       0x10 obj_cooja/mtype966.a(uip-nd6.o)
+ *fill*         0x000000000003c8d0       0x10 
+ .bss           0x000000000003c8e0      0x724 obj_cooja/mtype966.a(sicslowpan.o)
+ .bss           0x000000000003d004        0x0 obj_cooja/mtype966.a(uiplib.o)
+ .bss           0x000000000003d004        0x1 obj_cooja/mtype966.a(rpl.o)
+ .bss           0x000000000003d005        0x0 obj_cooja/mtype966.a(rpl-icmp6.o)
+ .bss           0x000000000003d005        0x0 obj_cooja/mtype966.a(rpl-dag.o)
+ *fill*         0x000000000003d005        0x3 
+ .bss           0x000000000003d008       0x11 obj_cooja/mtype966.a(rpl-dag-root.o)
+ .bss           0x000000000003d019        0x0 obj_cooja/mtype966.a(watchdog.o)
+ .bss           0x000000000003d019        0x0 obj_cooja/mtype966.a(stimer.o)
+ .bss           0x000000000003d019        0x0 obj_cooja/mtype966.a(memb.o)
+ *fill*         0x000000000003d019        0x7 
+ .bss           0x000000000003d020     0x2c80 obj_cooja/mtype966.a(queuebuf.o)
+ .bss           0x000000000003fca0     0x1214 obj_cooja/mtype966.a(nbr-table.o)
+ *fill*         0x0000000000040eb4        0xc 
+ .bss           0x0000000000040ec0      0xe10 obj_cooja/mtype966.a(link-stats.o)
+ *fill*         0x0000000000041cd0       0x10 
+ .bss           0x0000000000041ce0      0x100 obj_cooja/mtype966.a(mac-sequence.o)
+ .bss           0x0000000000041de0        0x0 obj_cooja/mtype966.a(mac.o)
+ .bss           0x0000000000041de0        0x2 obj_cooja/mtype966.a(framer-802154.o)
+ .bss           0x0000000000041de2        0x0 obj_cooja/mtype966.a(frame802154.o)
+ *fill*         0x0000000000041de2        0x2 
+ .bss           0x0000000000041de4        0xc obj_cooja/mtype966.a(uipbuf.o)
+ .bss           0x0000000000041df0       0x18 obj_cooja/mtype966.a(uip-icmp6.o)
+ *fill*         0x0000000000041e08       0x18 
+ .bss           0x0000000000041e20     0x1d80 obj_cooja/mtype966.a(uip-sr.o)
+ .bss           0x0000000000043ba0      0xa78 obj_cooja/mtype966.a(uip-packetqueue)
+ .bss           0x0000000000044618        0xe obj_cooja/mtype966.a(rpl-nbr-policy.)
+ *fill*         0x0000000000044626       0x1a 
+ .bss           0x0000000000044640      0x960 obj_cooja/mtype966.a(rpl-neighbor.o)
+ .bss           0x0000000000044fa0       0x40 obj_cooja/mtype966.a(rpl-timers.o)
+ .bss           0x0000000000044fe0        0x0 obj_cooja/mtype966.a(rpl-ext-header.)
+ .bss           0x0000000000044fe0        0x0 obj_cooja/mtype966.a(rpl-mrhof.o)
+ .bss           0x0000000000044fe0        0x0 /usr/lib/gcc/i686-linux-gnu/5/crtendS.o
+ .bss           0x0000000000044fe0        0x0 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+ *(COMMON)
+ COMMON         0x0000000000044fe0        0x8 obj_cooja/mtype966.o
+                0x0000000000044fe0                referenceVar
+                0x0000000000044fe4                sensors_flags
+ COMMON         0x0000000000044fe8        0xc obj_cooja/mtype966.a(simEnvChange.o)
+                0x0000000000044fe8                simEtimerPending
+                0x0000000000044fec                simProcessRunValue
+                0x0000000000044ff0                simEtimerNextExpirationTime
+ *fill*         0x0000000000044ff4        0x4 
+ COMMON         0x0000000000044ff8       0x18 obj_cooja/mtype966.a(rtimer-arch.o)
+                0x0000000000044ff8                simRtimerPending
+                0x0000000000045000                simRtimerCurrentTicks
+                0x0000000000045008                simRtimerNextExpirationTime
+ COMMON         0x0000000000045010        0x1 obj_cooja/mtype966.a(beep.o)
+                0x0000000000045010                simBeeped
+ COMMON         0x0000000000045011        0x3 obj_cooja/mtype966.a(button-sensor.o)
+                0x0000000000045011                simButtonIsActive
+                0x0000000000045012                simButtonIsDown
+                0x0000000000045013                simButtonChanged
+ COMMON         0x0000000000045014        0x1 obj_cooja/mtype966.a(leds-arch.o)
+                0x0000000000045014                simLedsValue
+ *fill*         0x0000000000045015        0x3 
+ COMMON         0x0000000000045018        0xc obj_cooja/mtype966.a(moteid.o)
+                0x0000000000045018                simRandomSeed
+                0x000000000004501c                simMoteIDChanged
+                0x0000000000045020                simMoteID
+ COMMON         0x0000000000045024        0x2 obj_cooja/mtype966.a(pir-sensor.o)
+                0x0000000000045024                simPirIsActive
+                0x0000000000045025                simPirChanged
+ *fill*         0x0000000000045026       0x1a 
+ COMMON         0x0000000000045040      0x820 obj_cooja/mtype966.a(rs232.o)
+                0x0000000000045040                simSerialReceivingFlag
+                0x0000000000045044                simSerialReceivingLength
+                0x0000000000045060                simSerialReceivingData
+ COMMON         0x0000000000045860        0x2 obj_cooja/mtype966.a(vib-sensor.o)
+                0x0000000000045860                simVibChanged
+                0x0000000000045861                simVibIsActive
+ *fill*         0x0000000000045862        0x2 
+ COMMON         0x0000000000045864        0x4 obj_cooja/mtype966.a(clock.o)
+                0x0000000000045864                simCurrentTime
+ *fill*         0x0000000000045868       0x18 
+ COMMON         0x0000000000045880     0x2020 obj_cooja/mtype966.a(cooja-log.o)
+                0x0000000000045880                simLoggedLength
+                0x0000000000045884                simLoggedFlag
+                0x00000000000458a0                simLoggedData
+ COMMON         0x00000000000478a0      0x100 obj_cooja/mtype966.a(cooja-radio.o)
+                0x00000000000478a0                simOutDataBuffer
+                0x0000000000047920                simInDataBuffer
+ COMMON         0x00000000000479a0      0x400 obj_cooja/mtype966.a(eeprom.o)
+                0x00000000000479a0                simEEPROMData
+ COMMON         0x0000000000047da0        0x1 obj_cooja/mtype966.a(sensors.o)
+                0x0000000000047da0                sensors_event
+ COMMON         0x0000000000047da1        0x1 obj_cooja/mtype966.a(mqtt.o)
+                0x0000000000047da1                mqtt_update_event
+ *fill*         0x0000000000047da2        0x2 
+ COMMON         0x0000000000047da4       0x50 obj_cooja/mtype966.a(contiki-main.o)
+                0x0000000000047da4                eb_per_time_source
+                0x0000000000047db8                unicast_per_neighbor_rpl_storing
+                0x0000000000047dcc                unicast_per_neighbor_rpl_ns
+                0x0000000000047de0                default_common
+ COMMON         0x0000000000047df4        0x1 obj_cooja/mtype966.a(serial-line.o)
+                0x0000000000047df4                serial_line_event_message
+ *fill*         0x0000000000047df5        0x3 
+ COMMON         0x0000000000047df8       0x2c obj_cooja/mtype966.a(packetbuf.o)
+                0x0000000000047df8                packetbuf_attrs
+                0x0000000000047e14                packetbuf_addrs
+ COMMON         0x0000000000047e24        0x8 obj_cooja/mtype966.a(linkaddr.o)
+                0x0000000000047e24                linkaddr_node_addr
+ *fill*         0x0000000000047e2c       0x14 
+ COMMON         0x0000000000047e40      0x181 obj_cooja/mtype966.a(uip-ds6.o)
+                0x0000000000047e40                uip_ds6_prefix_list
+                0x0000000000047ea0                uip_ds6_timer_periodic
+                0x0000000000047eb0                uip_ds6_netif_addr_list_offset
+                0x0000000000047ec0                uip_ds6_if
+                0x0000000000047fb8                uip_ds6_timer_ra
+                0x0000000000047fc0                uip_ds6_addr_size
+ COMMON         0x0000000000047fc1        0x1 obj_cooja/mtype966.a(tcpip.o)
+                0x0000000000047fc1                tcpip_event
+ *fill*         0x0000000000047fc2       0x1e 
+ COMMON         0x0000000000047fe0      0x80c obj_cooja/mtype966.a(uip6.o)
+                0x0000000000047fe0                uip_slen
+                0x0000000000047fe4                uip_acc32
+                0x0000000000048000                uip_conns
+                0x0000000000048180                uip_lladdr
+                0x0000000000048188                uip_appdata
+                0x000000000004818c                uip_flags
+                0x00000000000481a0                uip_aligned_buf
+                0x00000000000486a0                uip_listenports
+                0x00000000000486c8                uip_len
+                0x00000000000486cc                uip_sappdata
+                0x00000000000486e0                uip_udp_conns
+                0x00000000000487e0                uip_udp_conn
+                0x00000000000487e4                uip_next_hdr
+                0x00000000000487e8                uip_conn
+ COMMON         0x00000000000487ec       0x10 obj_cooja/mtype966.a(rpl.o)
+                0x00000000000487ec                rpl_multicast_addr
+ *fill*         0x00000000000487fc        0x4 
+ COMMON         0x0000000000048800      0x164 obj_cooja/mtype966.a(rpl-dag.o)
+                0x0000000000048800                curr_instance
+ *fill*         0x0000000000048964       0x1c 
+ COMMON         0x0000000000048980       0x20 obj_cooja/mtype966.a(link-stats.o)
+                0x0000000000048980                periodic_timer
+                0x00000000000489a0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x00000000000489a0                . = ALIGN (0x4)
+                0x00000000000489a0                . = SEGMENT_START ("ldata-segment", .)
+                0x00000000000489a0                . = ALIGN (0x4)
+                0x00000000000489a0                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x00000000000489a0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x35
+ *(.comment)
+ .comment       0x0000000000000000       0x35 /usr/lib/gcc/i686-linux-gnu/5/crtbeginS.o
+                                         0x36 (size before relaxing)
+ .comment       0x0000000000000035       0x36 mqtt-demo.o
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.o
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(simEnvChange.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(cooja_mt.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(cooja_mtarch.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rtimer-arch.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(beep.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(button-sensor.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(leds-arch.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(moteid.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(pir-sensor.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rs232.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(vib-sensor.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(clock.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(cooja-log.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(cfs-cooja.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(cooja-radio.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(eeprom.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(random.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(sensors.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(leds.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(mqtt.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(contiki-main.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(autostart.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(ctimer.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(energest.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(etimer.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(log.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(process.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rtimer.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(node-id.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(timer.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(serial-line.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(list.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(ringbuf.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(packetbuf.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(netstack.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(linkaddr.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(csma.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(csma-output.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uip-ds6.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(tcp-socket.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(tcpip.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uip-ds6-route.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uip6.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uip-ds6-nbr.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uip-nd6.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(sicslowpan.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uiplib.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rpl.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rpl-icmp6.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rpl-dag.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rpl-dag-root.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(watchdog.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(stimer.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(memb.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(queuebuf.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(nbr-table.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(link-stats.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(mac-sequence.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(mac.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(framer-802154.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(frame802154.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uipbuf.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uip-icmp6.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uip-sr.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(uip-packetqueue)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rpl-nbr-policy.)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rpl-neighbor.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rpl-timers.o)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rpl-ext-header.)
+ .comment       0x0000000000000035       0x36 obj_cooja/mtype966.a(rpl-mrhof.o)
+ .comment       0x0000000000000035       0x36 /usr/lib/gcc/i686-linux-gnu/5/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x900
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 mqtt-demo.o
+ .debug_aranges
+                0x0000000000000020       0x20 obj_cooja/mtype966.o
+ .debug_aranges
+                0x0000000000000040       0x20 obj_cooja/mtype966.a(simEnvChange.o)
+ .debug_aranges
+                0x0000000000000060       0x20 obj_cooja/mtype966.a(cooja_mt.o)
+ .debug_aranges
+                0x0000000000000080       0x20 obj_cooja/mtype966.a(cooja_mtarch.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 obj_cooja/mtype966.a(rtimer-arch.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 obj_cooja/mtype966.a(beep.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 obj_cooja/mtype966.a(button-sensor.o)
+ .debug_aranges
+                0x0000000000000100       0x20 obj_cooja/mtype966.a(leds-arch.o)
+ .debug_aranges
+                0x0000000000000120       0x20 obj_cooja/mtype966.a(moteid.o)
+ .debug_aranges
+                0x0000000000000140       0x20 obj_cooja/mtype966.a(pir-sensor.o)
+ .debug_aranges
+                0x0000000000000160       0x20 obj_cooja/mtype966.a(rs232.o)
+ .debug_aranges
+                0x0000000000000180       0x20 obj_cooja/mtype966.a(vib-sensor.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 obj_cooja/mtype966.a(clock.o)
+ .debug_aranges
+                0x00000000000001c0       0x20 obj_cooja/mtype966.a(cooja-log.o)
+ .debug_aranges
+                0x00000000000001e0       0x20 obj_cooja/mtype966.a(cfs-cooja.o)
+ .debug_aranges
+                0x0000000000000200       0x20 obj_cooja/mtype966.a(cooja-radio.o)
+ .debug_aranges
+                0x0000000000000220       0x20 obj_cooja/mtype966.a(eeprom.o)
+ .debug_aranges
+                0x0000000000000240       0x20 obj_cooja/mtype966.a(random.o)
+ .debug_aranges
+                0x0000000000000260       0x20 obj_cooja/mtype966.a(sensors.o)
+ .debug_aranges
+                0x0000000000000280       0x20 obj_cooja/mtype966.a(leds.o)
+ .debug_aranges
+                0x00000000000002a0       0x20 obj_cooja/mtype966.a(mqtt.o)
+ .debug_aranges
+                0x00000000000002c0       0x20 obj_cooja/mtype966.a(contiki-main.o)
+ .debug_aranges
+                0x00000000000002e0       0x20 obj_cooja/mtype966.a(autostart.o)
+ .debug_aranges
+                0x0000000000000300       0x20 obj_cooja/mtype966.a(ctimer.o)
+ .debug_aranges
+                0x0000000000000320       0x20 obj_cooja/mtype966.a(energest.o)
+ .debug_aranges
+                0x0000000000000340       0x20 obj_cooja/mtype966.a(etimer.o)
+ .debug_aranges
+                0x0000000000000360       0x20 obj_cooja/mtype966.a(log.o)
+ .debug_aranges
+                0x0000000000000380       0x20 obj_cooja/mtype966.a(process.o)
+ .debug_aranges
+                0x00000000000003a0       0x20 obj_cooja/mtype966.a(rtimer.o)
+ .debug_aranges
+                0x00000000000003c0       0x20 obj_cooja/mtype966.a(node-id.o)
+ .debug_aranges
+                0x00000000000003e0       0x20 obj_cooja/mtype966.a(timer.o)
+ .debug_aranges
+                0x0000000000000400       0x20 obj_cooja/mtype966.a(serial-line.o)
+ .debug_aranges
+                0x0000000000000420       0x20 obj_cooja/mtype966.a(list.o)
+ .debug_aranges
+                0x0000000000000440       0x20 obj_cooja/mtype966.a(ringbuf.o)
+ .debug_aranges
+                0x0000000000000460       0x20 obj_cooja/mtype966.a(packetbuf.o)
+ .debug_aranges
+                0x0000000000000480       0x20 obj_cooja/mtype966.a(netstack.o)
+ .debug_aranges
+                0x00000000000004a0       0x20 obj_cooja/mtype966.a(linkaddr.o)
+ .debug_aranges
+                0x00000000000004c0       0x20 obj_cooja/mtype966.a(csma.o)
+ .debug_aranges
+                0x00000000000004e0       0x20 obj_cooja/mtype966.a(csma-output.o)
+ .debug_aranges
+                0x0000000000000500       0x20 obj_cooja/mtype966.a(uip-ds6.o)
+ .debug_aranges
+                0x0000000000000520       0x20 obj_cooja/mtype966.a(tcp-socket.o)
+ .debug_aranges
+                0x0000000000000540       0x20 obj_cooja/mtype966.a(tcpip.o)
+ .debug_aranges
+                0x0000000000000560       0x20 obj_cooja/mtype966.a(uip-ds6-route.o)
+ .debug_aranges
+                0x0000000000000580       0x20 obj_cooja/mtype966.a(uip6.o)
+ .debug_aranges
+                0x00000000000005a0       0x20 obj_cooja/mtype966.a(uip-ds6-nbr.o)
+ .debug_aranges
+                0x00000000000005c0       0x20 obj_cooja/mtype966.a(uip-nd6.o)
+ .debug_aranges
+                0x00000000000005e0       0x20 obj_cooja/mtype966.a(sicslowpan.o)
+ .debug_aranges
+                0x0000000000000600       0x20 obj_cooja/mtype966.a(uiplib.o)
+ .debug_aranges
+                0x0000000000000620       0x20 obj_cooja/mtype966.a(rpl.o)
+ .debug_aranges
+                0x0000000000000640       0x20 obj_cooja/mtype966.a(rpl-icmp6.o)
+ .debug_aranges
+                0x0000000000000660       0x20 obj_cooja/mtype966.a(rpl-dag.o)
+ .debug_aranges
+                0x0000000000000680       0x20 obj_cooja/mtype966.a(rpl-dag-root.o)
+ .debug_aranges
+                0x00000000000006a0       0x20 obj_cooja/mtype966.a(watchdog.o)
+ .debug_aranges
+                0x00000000000006c0       0x20 obj_cooja/mtype966.a(stimer.o)
+ .debug_aranges
+                0x00000000000006e0       0x20 obj_cooja/mtype966.a(memb.o)
+ .debug_aranges
+                0x0000000000000700       0x20 obj_cooja/mtype966.a(queuebuf.o)
+ .debug_aranges
+                0x0000000000000720       0x20 obj_cooja/mtype966.a(nbr-table.o)
+ .debug_aranges
+                0x0000000000000740       0x20 obj_cooja/mtype966.a(link-stats.o)
+ .debug_aranges
+                0x0000000000000760       0x20 obj_cooja/mtype966.a(mac-sequence.o)
+ .debug_aranges
+                0x0000000000000780       0x20 obj_cooja/mtype966.a(mac.o)
+ .debug_aranges
+                0x00000000000007a0       0x20 obj_cooja/mtype966.a(framer-802154.o)
+ .debug_aranges
+                0x00000000000007c0       0x20 obj_cooja/mtype966.a(frame802154.o)
+ .debug_aranges
+                0x00000000000007e0       0x20 obj_cooja/mtype966.a(uipbuf.o)
+ .debug_aranges
+                0x0000000000000800       0x20 obj_cooja/mtype966.a(uip-icmp6.o)
+ .debug_aranges
+                0x0000000000000820       0x20 obj_cooja/mtype966.a(uip-sr.o)
+ .debug_aranges
+                0x0000000000000840       0x20 obj_cooja/mtype966.a(uip-packetqueue)
+ .debug_aranges
+                0x0000000000000860       0x20 obj_cooja/mtype966.a(rpl-nbr-policy.)
+ .debug_aranges
+                0x0000000000000880       0x20 obj_cooja/mtype966.a(rpl-neighbor.o)
+ .debug_aranges
+                0x00000000000008a0       0x20 obj_cooja/mtype966.a(rpl-timers.o)
+ .debug_aranges
+                0x00000000000008c0       0x20 obj_cooja/mtype966.a(rpl-ext-header.)
+ .debug_aranges
+                0x00000000000008e0       0x20 obj_cooja/mtype966.a(rpl-mrhof.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x20ff0
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x100f mqtt-demo.o
+ .debug_info    0x000000000000100f     0x3253 obj_cooja/mtype966.o
+ .debug_info    0x0000000000004262      0x15a obj_cooja/mtype966.a(simEnvChange.o)
+ .debug_info    0x00000000000043bc      0x1af obj_cooja/mtype966.a(cooja_mt.o)
+ .debug_info    0x000000000000456b      0x212 obj_cooja/mtype966.a(cooja_mtarch.o)
+ .debug_info    0x000000000000477d      0x181 obj_cooja/mtype966.a(rtimer-arch.o)
+ .debug_info    0x00000000000048fe      0x1f3 obj_cooja/mtype966.a(beep.o)
+ .debug_info    0x0000000000004af1      0x257 obj_cooja/mtype966.a(button-sensor.o)
+ .debug_info    0x0000000000004d48      0x14f obj_cooja/mtype966.a(leds-arch.o)
+ .debug_info    0x0000000000004e97      0x10a obj_cooja/mtype966.a(moteid.o)
+ .debug_info    0x0000000000004fa1      0x216 obj_cooja/mtype966.a(pir-sensor.o)
+ .debug_info    0x00000000000051b7      0x21e obj_cooja/mtype966.a(rs232.o)
+ .debug_info    0x00000000000053d5      0x216 obj_cooja/mtype966.a(vib-sensor.o)
+ .debug_info    0x00000000000055eb      0x152 obj_cooja/mtype966.a(clock.o)
+ .debug_info    0x000000000000573d      0x2bb obj_cooja/mtype966.a(cooja-log.o)
+ .debug_info    0x00000000000059f8      0x3cf obj_cooja/mtype966.a(cfs-cooja.o)
+ .debug_info    0x0000000000005dc7      0xabf obj_cooja/mtype966.a(cooja-radio.o)
+ .debug_info    0x0000000000006886      0x1d5 obj_cooja/mtype966.a(eeprom.o)
+ .debug_info    0x0000000000006a5b       0xb3 obj_cooja/mtype966.a(random.o)
+ .debug_info    0x0000000000006b0e      0x36d obj_cooja/mtype966.a(sensors.o)
+ .debug_info    0x0000000000006e7b      0x166 obj_cooja/mtype966.a(leds.o)
+ .debug_info    0x0000000000006fe1     0x16c6 obj_cooja/mtype966.a(mqtt.o)
+ .debug_info    0x00000000000086a7      0xf01 obj_cooja/mtype966.a(contiki-main.o)
+ .debug_info    0x00000000000095a8      0x1a5 obj_cooja/mtype966.a(autostart.o)
+ .debug_info    0x000000000000974d      0x46c obj_cooja/mtype966.a(ctimer.o)
+ .debug_info    0x0000000000009bb9       0xb5 obj_cooja/mtype966.a(energest.o)
+ .debug_info    0x0000000000009c6e      0x498 obj_cooja/mtype966.a(etimer.o)
+ .debug_info    0x000000000000a106      0x472 obj_cooja/mtype966.a(log.o)
+ .debug_info    0x000000000000a578      0x4ab obj_cooja/mtype966.a(process.o)
+ .debug_info    0x000000000000aa23      0x1ba obj_cooja/mtype966.a(rtimer.o)
+ .debug_info    0x000000000000abdd       0xfb obj_cooja/mtype966.a(node-id.o)
+ .debug_info    0x000000000000acd8      0x173 obj_cooja/mtype966.a(timer.o)
+ .debug_info    0x000000000000ae4b      0x2da obj_cooja/mtype966.a(serial-line.o)
+ .debug_info    0x000000000000b125      0x38b obj_cooja/mtype966.a(list.o)
+ .debug_info    0x000000000000b4b0      0x1b1 obj_cooja/mtype966.a(ringbuf.o)
+ .debug_info    0x000000000000b661      0x54c obj_cooja/mtype966.a(packetbuf.o)
+ .debug_info    0x000000000000bbad      0x555 obj_cooja/mtype966.a(netstack.o)
+ .debug_info    0x000000000000c102      0x18b obj_cooja/mtype966.a(linkaddr.o)
+ .debug_info    0x000000000000c28d      0x7ee obj_cooja/mtype966.a(csma.o)
+ .debug_info    0x000000000000ca7b      0xc69 obj_cooja/mtype966.a(csma-output.o)
+ .debug_info    0x000000000000d6e4      0xa8c obj_cooja/mtype966.a(uip-ds6.o)
+ .debug_info    0x000000000000e170      0x957 obj_cooja/mtype966.a(tcp-socket.o)
+ .debug_info    0x000000000000eac7     0x122e obj_cooja/mtype966.a(tcpip.o)
+ .debug_info    0x000000000000fcf5      0x87a obj_cooja/mtype966.a(uip-ds6-route.o)
+ .debug_info    0x000000000001056f     0x13ab obj_cooja/mtype966.a(uip6.o)
+ .debug_info    0x000000000001191a      0xb45 obj_cooja/mtype966.a(uip-ds6-nbr.o)
+ .debug_info    0x000000000001245f      0x7fb obj_cooja/mtype966.a(uip-nd6.o)
+ .debug_info    0x0000000000012c5a     0x1732 obj_cooja/mtype966.a(sicslowpan.o)
+ .debug_info    0x000000000001438c      0x30b obj_cooja/mtype966.a(uiplib.o)
+ .debug_info    0x0000000000014697     0x1087 obj_cooja/mtype966.a(rpl.o)
+ .debug_info    0x000000000001571e     0x105e obj_cooja/mtype966.a(rpl-icmp6.o)
+ .debug_info    0x000000000001677c      0xfeb obj_cooja/mtype966.a(rpl-dag.o)
+ .debug_info    0x0000000000017767      0xb13 obj_cooja/mtype966.a(rpl-dag-root.o)
+ .debug_info    0x000000000001827a       0x7b obj_cooja/mtype966.a(watchdog.o)
+ .debug_info    0x00000000000182f5      0x180 obj_cooja/mtype966.a(stimer.o)
+ .debug_info    0x0000000000018475      0x1d7 obj_cooja/mtype966.a(memb.o)
+ .debug_info    0x000000000001864c      0x569 obj_cooja/mtype966.a(queuebuf.o)
+ .debug_info    0x0000000000018bb5      0x953 obj_cooja/mtype966.a(nbr-table.o)
+ .debug_info    0x0000000000019508      0x64e obj_cooja/mtype966.a(link-stats.o)
+ .debug_info    0x0000000000019b56      0x20c obj_cooja/mtype966.a(mac-sequence.o)
+ .debug_info    0x0000000000019d62       0xf3 obj_cooja/mtype966.a(mac.o)
+ .debug_info    0x0000000000019e55      0x512 obj_cooja/mtype966.a(framer-802154.o)
+ .debug_info    0x000000000001a367      0x738 obj_cooja/mtype966.a(frame802154.o)
+ .debug_info    0x000000000001aa9f      0x3a2 obj_cooja/mtype966.a(uipbuf.o)
+ .debug_info    0x000000000001ae41      0xd2a obj_cooja/mtype966.a(uip-icmp6.o)
+ .debug_info    0x000000000001bb6b      0xaf7 obj_cooja/mtype966.a(uip-sr.o)
+ .debug_info    0x000000000001c662      0x470 obj_cooja/mtype966.a(uip-packetqueue)
+ .debug_info    0x000000000001cad2      0xc8f obj_cooja/mtype966.a(rpl-nbr-policy.)
+ .debug_info    0x000000000001d761      0xe62 obj_cooja/mtype966.a(rpl-neighbor.o)
+ .debug_info    0x000000000001e5c3      0xc7c obj_cooja/mtype966.a(rpl-timers.o)
+ .debug_info    0x000000000001f23f     0x13f9 obj_cooja/mtype966.a(rpl-ext-header.)
+ .debug_info    0x0000000000020638      0x9b8 obj_cooja/mtype966.a(rpl-mrhof.o)
+
+.debug_abbrev   0x0000000000000000     0x78e0
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x29b mqtt-demo.o
+ .debug_abbrev  0x000000000000029b      0x294 obj_cooja/mtype966.o
+ .debug_abbrev  0x000000000000052f       0xc3 obj_cooja/mtype966.a(simEnvChange.o)
+ .debug_abbrev  0x00000000000005f2       0xe6 obj_cooja/mtype966.a(cooja_mt.o)
+ .debug_abbrev  0x00000000000006d8      0x11e obj_cooja/mtype966.a(cooja_mtarch.o)
+ .debug_abbrev  0x00000000000007f6       0xeb obj_cooja/mtype966.a(rtimer-arch.o)
+ .debug_abbrev  0x00000000000008e1       0xe3 obj_cooja/mtype966.a(beep.o)
+ .debug_abbrev  0x00000000000009c4      0x11c obj_cooja/mtype966.a(button-sensor.o)
+ .debug_abbrev  0x0000000000000ae0       0xee obj_cooja/mtype966.a(leds-arch.o)
+ .debug_abbrev  0x0000000000000bce       0x9c obj_cooja/mtype966.a(moteid.o)
+ .debug_abbrev  0x0000000000000c6a       0xe6 obj_cooja/mtype966.a(pir-sensor.o)
+ .debug_abbrev  0x0000000000000d50      0x14a obj_cooja/mtype966.a(rs232.o)
+ .debug_abbrev  0x0000000000000e9a       0xe6 obj_cooja/mtype966.a(vib-sensor.o)
+ .debug_abbrev  0x0000000000000f80       0xee obj_cooja/mtype966.a(clock.o)
+ .debug_abbrev  0x000000000000106e      0x141 obj_cooja/mtype966.a(cooja-log.o)
+ .debug_abbrev  0x00000000000011af      0x139 obj_cooja/mtype966.a(cfs-cooja.o)
+ .debug_abbrev  0x00000000000012e8      0x2ed obj_cooja/mtype966.a(cooja-radio.o)
+ .debug_abbrev  0x00000000000015d5       0xf5 obj_cooja/mtype966.a(eeprom.o)
+ .debug_abbrev  0x00000000000016ca       0x6d obj_cooja/mtype966.a(random.o)
+ .debug_abbrev  0x0000000000001737      0x1c2 obj_cooja/mtype966.a(sensors.o)
+ .debug_abbrev  0x00000000000018f9       0xb9 obj_cooja/mtype966.a(leds.o)
+ .debug_abbrev  0x00000000000019b2      0x278 obj_cooja/mtype966.a(mqtt.o)
+ .debug_abbrev  0x0000000000001c2a      0x1ef obj_cooja/mtype966.a(contiki-main.o)
+ .debug_abbrev  0x0000000000001e19       0xfb obj_cooja/mtype966.a(autostart.o)
+ .debug_abbrev  0x0000000000001f14      0x1a1 obj_cooja/mtype966.a(ctimer.o)
+ .debug_abbrev  0x00000000000020b5       0x69 obj_cooja/mtype966.a(energest.o)
+ .debug_abbrev  0x000000000000211e      0x1f8 obj_cooja/mtype966.a(etimer.o)
+ .debug_abbrev  0x0000000000002316      0x159 obj_cooja/mtype966.a(log.o)
+ .debug_abbrev  0x000000000000246f      0x244 obj_cooja/mtype966.a(process.o)
+ .debug_abbrev  0x00000000000026b3      0x126 obj_cooja/mtype966.a(rtimer.o)
+ .debug_abbrev  0x00000000000027d9       0x9d obj_cooja/mtype966.a(node-id.o)
+ .debug_abbrev  0x0000000000002876       0xf5 obj_cooja/mtype966.a(timer.o)
+ .debug_abbrev  0x000000000000296b      0x197 obj_cooja/mtype966.a(serial-line.o)
+ .debug_abbrev  0x0000000000002b02      0x136 obj_cooja/mtype966.a(list.o)
+ .debug_abbrev  0x0000000000002c38       0xdb obj_cooja/mtype966.a(ringbuf.o)
+ .debug_abbrev  0x0000000000002d13      0x1da obj_cooja/mtype966.a(packetbuf.o)
+ .debug_abbrev  0x0000000000002eed      0x1b9 obj_cooja/mtype966.a(netstack.o)
+ .debug_abbrev  0x00000000000030a6       0xf2 obj_cooja/mtype966.a(linkaddr.o)
+ .debug_abbrev  0x0000000000003198      0x1b8 obj_cooja/mtype966.a(csma.o)
+ .debug_abbrev  0x0000000000003350      0x242 obj_cooja/mtype966.a(csma-output.o)
+ .debug_abbrev  0x0000000000003592      0x23e obj_cooja/mtype966.a(uip-ds6.o)
+ .debug_abbrev  0x00000000000037d0      0x23d obj_cooja/mtype966.a(tcp-socket.o)
+ .debug_abbrev  0x0000000000003a0d      0x39c obj_cooja/mtype966.a(tcpip.o)
+ .debug_abbrev  0x0000000000003da9      0x2b0 obj_cooja/mtype966.a(uip-ds6-route.o)
+ .debug_abbrev  0x0000000000004059      0x30d obj_cooja/mtype966.a(uip6.o)
+ .debug_abbrev  0x0000000000004366      0x25d obj_cooja/mtype966.a(uip-ds6-nbr.o)
+ .debug_abbrev  0x00000000000045c3      0x232 obj_cooja/mtype966.a(uip-nd6.o)
+ .debug_abbrev  0x00000000000047f5      0x2e9 obj_cooja/mtype966.a(sicslowpan.o)
+ .debug_abbrev  0x0000000000004ade      0x11d obj_cooja/mtype966.a(uiplib.o)
+ .debug_abbrev  0x0000000000004bfb      0x2d2 obj_cooja/mtype966.a(rpl.o)
+ .debug_abbrev  0x0000000000004ecd      0x303 obj_cooja/mtype966.a(rpl-icmp6.o)
+ .debug_abbrev  0x00000000000051d0      0x34c obj_cooja/mtype966.a(rpl-dag.o)
+ .debug_abbrev  0x000000000000551c      0x21b obj_cooja/mtype966.a(rpl-dag-root.o)
+ .debug_abbrev  0x0000000000005737       0x2c obj_cooja/mtype966.a(watchdog.o)
+ .debug_abbrev  0x0000000000005763       0xd9 obj_cooja/mtype966.a(stimer.o)
+ .debug_abbrev  0x000000000000583c       0xe4 obj_cooja/mtype966.a(memb.o)
+ .debug_abbrev  0x0000000000005920      0x1a6 obj_cooja/mtype966.a(queuebuf.o)
+ .debug_abbrev  0x0000000000005ac6      0x201 obj_cooja/mtype966.a(nbr-table.o)
+ .debug_abbrev  0x0000000000005cc7      0x202 obj_cooja/mtype966.a(link-stats.o)
+ .debug_abbrev  0x0000000000005ec9       0xed obj_cooja/mtype966.a(mac-sequence.o)
+ .debug_abbrev  0x0000000000005fb6       0x8d obj_cooja/mtype966.a(mac.o)
+ .debug_abbrev  0x0000000000006043      0x16c obj_cooja/mtype966.a(framer-802154.o)
+ .debug_abbrev  0x00000000000061af      0x215 obj_cooja/mtype966.a(frame802154.o)
+ .debug_abbrev  0x00000000000063c4      0x14a obj_cooja/mtype966.a(uipbuf.o)
+ .debug_abbrev  0x000000000000650e      0x29a obj_cooja/mtype966.a(uip-icmp6.o)
+ .debug_abbrev  0x00000000000067a8      0x24e obj_cooja/mtype966.a(uip-sr.o)
+ .debug_abbrev  0x00000000000069f6      0x1d4 obj_cooja/mtype966.a(uip-packetqueue)
+ .debug_abbrev  0x0000000000006bca      0x26a obj_cooja/mtype966.a(rpl-nbr-policy.)
+ .debug_abbrev  0x0000000000006e34      0x31d obj_cooja/mtype966.a(rpl-neighbor.o)
+ .debug_abbrev  0x0000000000007151      0x297 obj_cooja/mtype966.a(rpl-timers.o)
+ .debug_abbrev  0x00000000000073e8      0x313 obj_cooja/mtype966.a(rpl-ext-header.)
+ .debug_abbrev  0x00000000000076fb      0x1e5 obj_cooja/mtype966.a(rpl-mrhof.o)
+
+.debug_line     0x0000000000000000     0x902c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x345 mqtt-demo.o
+ .debug_line    0x0000000000000345      0x2eb obj_cooja/mtype966.o
+ .debug_line    0x0000000000000630       0xe3 obj_cooja/mtype966.a(simEnvChange.o)
+ .debug_line    0x0000000000000713       0xc2 obj_cooja/mtype966.a(cooja_mt.o)
+ .debug_line    0x00000000000007d5       0xbf obj_cooja/mtype966.a(cooja_mtarch.o)
+ .debug_line    0x0000000000000894       0xd1 obj_cooja/mtype966.a(rtimer-arch.o)
+ .debug_line    0x0000000000000965       0xd2 obj_cooja/mtype966.a(beep.o)
+ .debug_line    0x0000000000000a37      0x13c obj_cooja/mtype966.a(button-sensor.o)
+ .debug_line    0x0000000000000b73       0xc8 obj_cooja/mtype966.a(leds-arch.o)
+ .debug_line    0x0000000000000c3b       0x8f obj_cooja/mtype966.a(moteid.o)
+ .debug_line    0x0000000000000cca       0xc5 obj_cooja/mtype966.a(pir-sensor.o)
+ .debug_line    0x0000000000000d8f       0xd0 obj_cooja/mtype966.a(rs232.o)
+ .debug_line    0x0000000000000e5f       0xc5 obj_cooja/mtype966.a(vib-sensor.o)
+ .debug_line    0x0000000000000f24       0xc3 obj_cooja/mtype966.a(clock.o)
+ .debug_line    0x0000000000000fe7      0x11f obj_cooja/mtype966.a(cooja-log.o)
+ .debug_line    0x0000000000001106      0x112 obj_cooja/mtype966.a(cfs-cooja.o)
+ .debug_line    0x0000000000001218      0x281 obj_cooja/mtype966.a(cooja-radio.o)
+ .debug_line    0x0000000000001499       0xc4 obj_cooja/mtype966.a(eeprom.o)
+ .debug_line    0x000000000000155d       0x4a obj_cooja/mtype966.a(random.o)
+ .debug_line    0x00000000000015a7      0x11a obj_cooja/mtype966.a(sensors.o)
+ .debug_line    0x00000000000016c1       0x80 obj_cooja/mtype966.a(leds.o)
+ .debug_line    0x0000000000001741      0xd0c obj_cooja/mtype966.a(mqtt.o)
+ .debug_line    0x000000000000244d      0x37d obj_cooja/mtype966.a(contiki-main.o)
+ .debug_line    0x00000000000027ca       0x97 obj_cooja/mtype966.a(autostart.o)
+ .debug_line    0x0000000000002861      0x16f obj_cooja/mtype966.a(ctimer.o)
+ .debug_line    0x00000000000029d0       0x67 obj_cooja/mtype966.a(energest.o)
+ .debug_line    0x0000000000002a37      0x198 obj_cooja/mtype966.a(etimer.o)
+ .debug_line    0x0000000000002bcf      0x158 obj_cooja/mtype966.a(log.o)
+ .debug_line    0x0000000000002d27      0x181 obj_cooja/mtype966.a(process.o)
+ .debug_line    0x0000000000002ea8       0x89 obj_cooja/mtype966.a(rtimer.o)
+ .debug_line    0x0000000000002f31       0x7e obj_cooja/mtype966.a(node-id.o)
+ .debug_line    0x0000000000002faf       0x99 obj_cooja/mtype966.a(timer.o)
+ .debug_line    0x0000000000003048      0x111 obj_cooja/mtype966.a(serial-line.o)
+ .debug_line    0x0000000000003159      0x113 obj_cooja/mtype966.a(list.o)
+ .debug_line    0x000000000000326c       0x97 obj_cooja/mtype966.a(ringbuf.o)
+ .debug_line    0x0000000000003303      0x10c obj_cooja/mtype966.a(packetbuf.o)
+ .debug_line    0x000000000000340f      0x11d obj_cooja/mtype966.a(netstack.o)
+ .debug_line    0x000000000000352c       0x77 obj_cooja/mtype966.a(linkaddr.o)
+ .debug_line    0x00000000000035a3      0x18c obj_cooja/mtype966.a(csma.o)
+ .debug_line    0x000000000000372f      0x352 obj_cooja/mtype966.a(csma-output.o)
+ .debug_line    0x0000000000003a81      0x317 obj_cooja/mtype966.a(uip-ds6.o)
+ .debug_line    0x0000000000003d98      0x234 obj_cooja/mtype966.a(tcp-socket.o)
+ .debug_line    0x0000000000003fcc      0x3ff obj_cooja/mtype966.a(tcpip.o)
+ .debug_line    0x00000000000043cb      0x218 obj_cooja/mtype966.a(uip-ds6-route.o)
+ .debug_line    0x00000000000045e3      0x93f obj_cooja/mtype966.a(uip6.o)
+ .debug_line    0x0000000000004f22      0x262 obj_cooja/mtype966.a(uip-ds6-nbr.o)
+ .debug_line    0x0000000000005184      0x2b0 obj_cooja/mtype966.a(uip-nd6.o)
+ .debug_line    0x0000000000005434      0x9ae obj_cooja/mtype966.a(sicslowpan.o)
+ .debug_line    0x0000000000005de2      0x1cb obj_cooja/mtype966.a(uiplib.o)
+ .debug_line    0x0000000000005fad      0x2eb obj_cooja/mtype966.a(rpl.o)
+ .debug_line    0x0000000000006298      0x40e obj_cooja/mtype966.a(rpl-icmp6.o)
+ .debug_line    0x00000000000066a6      0x409 obj_cooja/mtype966.a(rpl-dag.o)
+ .debug_line    0x0000000000006aaf      0x1d4 obj_cooja/mtype966.a(rpl-dag-root.o)
+ .debug_line    0x0000000000006c83       0x61 obj_cooja/mtype966.a(watchdog.o)
+ .debug_line    0x0000000000006ce4       0x72 obj_cooja/mtype966.a(stimer.o)
+ .debug_line    0x0000000000006d56       0xbf obj_cooja/mtype966.a(memb.o)
+ .debug_line    0x0000000000006e15       0xee obj_cooja/mtype966.a(queuebuf.o)
+ .debug_line    0x0000000000006f03      0x241 obj_cooja/mtype966.a(nbr-table.o)
+ .debug_line    0x0000000000007144      0x1f3 obj_cooja/mtype966.a(link-stats.o)
+ .debug_line    0x0000000000007337      0x10e obj_cooja/mtype966.a(mac-sequence.o)
+ .debug_line    0x0000000000007445       0x53 obj_cooja/mtype966.a(mac.o)
+ .debug_line    0x0000000000007498      0x178 obj_cooja/mtype966.a(framer-802154.o)
+ .debug_line    0x0000000000007610      0x2bb obj_cooja/mtype966.a(frame802154.o)
+ .debug_line    0x00000000000078cb       0xc4 obj_cooja/mtype966.a(uipbuf.o)
+ .debug_line    0x000000000000798f      0x2fc obj_cooja/mtype966.a(uip-icmp6.o)
+ .debug_line    0x0000000000007c8b      0x2e5 obj_cooja/mtype966.a(uip-sr.o)
+ .debug_line    0x0000000000007f70      0x15e obj_cooja/mtype966.a(uip-packetqueue)
+ .debug_line    0x00000000000080ce      0x1d9 obj_cooja/mtype966.a(rpl-nbr-policy.)
+ .debug_line    0x00000000000082a7      0x36c obj_cooja/mtype966.a(rpl-neighbor.o)
+ .debug_line    0x0000000000008613      0x2f5 obj_cooja/mtype966.a(rpl-timers.o)
+ .debug_line    0x0000000000008908      0x4cb obj_cooja/mtype966.a(rpl-ext-header.)
+ .debug_line    0x0000000000008dd3      0x259 obj_cooja/mtype966.a(rpl-mrhof.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x89ee
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0xc16 mqtt-demo.o
+                                        0xda4 (size before relaxing)
+ .debug_str     0x0000000000000c16     0x1760 obj_cooja/mtype966.o
+                                       0x195d (size before relaxing)
+ .debug_str     0x0000000000002376       0x2d obj_cooja/mtype966.a(simEnvChange.o)
+                                        0x1fb (size before relaxing)
+ .debug_str     0x00000000000023a3       0x55 obj_cooja/mtype966.a(cooja_mt.o)
+                                        0x1fc (size before relaxing)
+ .debug_str     0x00000000000023f8       0x94 obj_cooja/mtype966.a(cooja_mtarch.o)
+                                        0x201 (size before relaxing)
+ .debug_str     0x000000000000248c      0x115 obj_cooja/mtype966.a(rtimer-arch.o)
+                                        0x24e (size before relaxing)
+ .debug_str     0x00000000000025a1       0xc3 obj_cooja/mtype966.a(beep.o)
+                                        0x23c (size before relaxing)
+ .debug_str     0x0000000000002664       0x6f obj_cooja/mtype966.a(button-sensor.o)
+                                        0x26c (size before relaxing)
+ .debug_str     0x00000000000026d3       0x73 obj_cooja/mtype966.a(leds-arch.o)
+                                        0x221 (size before relaxing)
+ .debug_str     0x0000000000002746       0x46 obj_cooja/mtype966.a(moteid.o)
+                                        0x1f2 (size before relaxing)
+ .debug_str     0x000000000000278c       0x54 obj_cooja/mtype966.a(pir-sensor.o)
+                                        0x229 (size before relaxing)
+ .debug_str     0x00000000000027e0       0xc0 obj_cooja/mtype966.a(rs232.o)
+                                        0x286 (size before relaxing)
+ .debug_str     0x00000000000028a0       0x54 obj_cooja/mtype966.a(vib-sensor.o)
+                                        0x229 (size before relaxing)
+ .debug_str     0x00000000000028f4       0x70 obj_cooja/mtype966.a(clock.o)
+                                        0x21e (size before relaxing)
+ .debug_str     0x0000000000002964       0xcf obj_cooja/mtype966.a(cooja-log.o)
+                                        0x2b2 (size before relaxing)
+ .debug_str     0x0000000000002a33      0x10b obj_cooja/mtype966.a(cfs-cooja.o)
+                                        0x2c8 (size before relaxing)
+ .debug_str     0x0000000000002b3e      0x6a8 obj_cooja/mtype966.a(cooja-radio.o)
+                                        0x98a (size before relaxing)
+ .debug_str     0x00000000000031e6       0x98 obj_cooja/mtype966.a(eeprom.o)
+                                        0x248 (size before relaxing)
+ .debug_str     0x000000000000327e       0x33 obj_cooja/mtype966.a(random.o)
+                                        0x160 (size before relaxing)
+ .debug_str     0x00000000000032b1       0x99 obj_cooja/mtype966.a(sensors.o)
+                                        0x290 (size before relaxing)
+ .debug_str     0x000000000000334a       0x5d obj_cooja/mtype966.a(leds.o)
+                                        0x1a1 (size before relaxing)
+ .debug_str     0x00000000000033a7      0x667 obj_cooja/mtype966.a(mqtt.o)
+                                       0x11f4 (size before relaxing)
+ .debug_str     0x0000000000003a0e      0x86a obj_cooja/mtype966.a(contiki-main.o)
+                                        0xd0c (size before relaxing)
+ .debug_str     0x0000000000004278       0x38 obj_cooja/mtype966.a(autostart.o)
+                                        0x1b3 (size before relaxing)
+ .debug_str     0x00000000000042b0       0xcf obj_cooja/mtype966.a(ctimer.o)
+                                        0x2b4 (size before relaxing)
+ .debug_str     0x000000000000437f       0x4d obj_cooja/mtype966.a(energest.o)
+                                        0x17a (size before relaxing)
+ .debug_str     0x00000000000043cc      0x150 obj_cooja/mtype966.a(etimer.o)
+                                        0x327 (size before relaxing)
+ .debug_str     0x000000000000451c      0x1b1 obj_cooja/mtype966.a(log.o)
+                                        0x35c (size before relaxing)
+ .debug_str     0x00000000000046cd      0x154 obj_cooja/mtype966.a(process.o)
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x0000000000004821       0xb0 obj_cooja/mtype966.a(rtimer.o)
+                                        0x1fe (size before relaxing)
+ .debug_str     0x00000000000048d1       0x24 obj_cooja/mtype966.a(node-id.o)
+                                        0x180 (size before relaxing)
+ .debug_str     0x00000000000048f5       0x15 obj_cooja/mtype966.a(timer.o)
+                                        0x1a2 (size before relaxing)
+ .debug_str     0x000000000000490a       0x9a obj_cooja/mtype966.a(serial-line.o)
+                                        0x27b (size before relaxing)
+ .debug_str     0x00000000000049a4       0xb4 obj_cooja/mtype966.a(list.o)
+                                        0x202 (size before relaxing)
+ .debug_str     0x0000000000004a58       0x5a obj_cooja/mtype966.a(ringbuf.o)
+                                        0x1b5 (size before relaxing)
+ .debug_str     0x0000000000004ab2      0x1e3 obj_cooja/mtype966.a(packetbuf.o)
+                                        0x528 (size before relaxing)
+ .debug_str     0x0000000000004c95      0x167 obj_cooja/mtype966.a(netstack.o)
+                                        0x450 (size before relaxing)
+ .debug_str     0x0000000000004dfc       0x50 obj_cooja/mtype966.a(linkaddr.o)
+                                        0x1bd (size before relaxing)
+ .debug_str     0x0000000000004e4c      0x231 obj_cooja/mtype966.a(csma.o)
+                                        0x71b (size before relaxing)
+ .debug_str     0x000000000000507d      0x27e obj_cooja/mtype966.a(csma-output.o)
+                                        0x87b (size before relaxing)
+ .debug_str     0x00000000000052fb      0x3cb obj_cooja/mtype966.a(uip-ds6.o)
+                                        0x6ad (size before relaxing)
+ .debug_str     0x00000000000056c6      0x20f obj_cooja/mtype966.a(tcp-socket.o)
+                                        0x652 (size before relaxing)
+ .debug_str     0x00000000000058d5      0x383 obj_cooja/mtype966.a(tcpip.o)
+                                        0xac9 (size before relaxing)
+ .debug_str     0x0000000000005c58      0x223 obj_cooja/mtype966.a(uip-ds6-route.o)
+                                        0x5d7 (size before relaxing)
+ .debug_str     0x0000000000005e7b      0x31f obj_cooja/mtype966.a(uip6.o)
+                                        0xb4e (size before relaxing)
+ .debug_str     0x000000000000619a      0x1fc obj_cooja/mtype966.a(uip-ds6-nbr.o)
+                                        0x877 (size before relaxing)
+ .debug_str     0x0000000000006396      0x11d obj_cooja/mtype966.a(uip-nd6.o)
+                                        0x5fa (size before relaxing)
+ .debug_str     0x00000000000064b3      0x55b obj_cooja/mtype966.a(sicslowpan.o)
+                                        0xf39 (size before relaxing)
+ .debug_str     0x0000000000006a0e       0x90 obj_cooja/mtype966.a(uiplib.o)
+                                        0x207 (size before relaxing)
+ .debug_str     0x0000000000006a9e      0x2b2 obj_cooja/mtype966.a(rpl.o)
+                                        0xb81 (size before relaxing)
+ .debug_str     0x0000000000006d50      0x1dd obj_cooja/mtype966.a(rpl-icmp6.o)
+                                        0xc51 (size before relaxing)
+ .debug_str     0x0000000000006f2d      0x2de obj_cooja/mtype966.a(rpl-dag.o)
+                                        0xb41 (size before relaxing)
+ .debug_str     0x000000000000720b       0xa1 obj_cooja/mtype966.a(rpl-dag-root.o)
+                                        0x833 (size before relaxing)
+ .debug_str     0x00000000000072ac       0x76 obj_cooja/mtype966.a(watchdog.o)
+                                        0x111 (size before relaxing)
+ .debug_str     0x0000000000007322       0x6c obj_cooja/mtype966.a(stimer.o)
+                                        0x1a6 (size before relaxing)
+ .debug_str     0x000000000000738e       0x5a obj_cooja/mtype966.a(memb.o)
+                                        0x197 (size before relaxing)
+ .debug_str     0x00000000000073e8      0x19d obj_cooja/mtype966.a(queuebuf.o)
+                                        0x4ee (size before relaxing)
+ .debug_str     0x0000000000007585      0x26d obj_cooja/mtype966.a(nbr-table.o)
+                                        0x5a5 (size before relaxing)
+ .debug_str     0x00000000000077f2      0x113 obj_cooja/mtype966.a(link-stats.o)
+                                        0x69d (size before relaxing)
+ .debug_str     0x0000000000007905       0x70 obj_cooja/mtype966.a(mac-sequence.o)
+                                        0x378 (size before relaxing)
+ .debug_str     0x0000000000007975       0x35 obj_cooja/mtype966.a(mac.o)
+                                        0x189 (size before relaxing)
+ .debug_str     0x00000000000079aa       0x7f obj_cooja/mtype966.a(framer-802154.o)
+                                        0x5c6 (size before relaxing)
+ .debug_str     0x0000000000007a29      0x1f2 obj_cooja/mtype966.a(frame802154.o)
+                                        0x575 (size before relaxing)
+ .debug_str     0x0000000000007c1b       0xda obj_cooja/mtype966.a(uipbuf.o)
+                                        0x341 (size before relaxing)
+ .debug_str     0x0000000000007cf5      0x1e7 obj_cooja/mtype966.a(uip-icmp6.o)
+                                        0x902 (size before relaxing)
+ .debug_str     0x0000000000007edc      0x17c obj_cooja/mtype966.a(uip-sr.o)
+                                        0x702 (size before relaxing)
+ .debug_str     0x0000000000008058       0xf4 obj_cooja/mtype966.a(uip-packetqueue)
+                                        0x33c (size before relaxing)
+ .debug_str     0x000000000000814c       0xa4 obj_cooja/mtype966.a(rpl-nbr-policy.)
+                                        0xa04 (size before relaxing)
+ .debug_str     0x00000000000081f0      0x280 obj_cooja/mtype966.a(rpl-neighbor.o)
+                                        0xa19 (size before relaxing)
+ .debug_str     0x0000000000008470      0x300 obj_cooja/mtype966.a(rpl-timers.o)
+                                        0x9ec (size before relaxing)
+ .debug_str     0x0000000000008770      0x1ba obj_cooja/mtype966.a(rpl-ext-header.)
+                                        0xf01 (size before relaxing)
+ .debug_str     0x000000000000892a       0xc4 obj_cooja/mtype966.a(rpl-mrhof.o)
+                                        0x70a (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x130
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x18 obj_cooja/mtype966.a(etimer.o)
+ .debug_ranges  0x0000000000000018       0x18 obj_cooja/mtype966.a(serial-line.o)
+ .debug_ranges  0x0000000000000030       0x48 obj_cooja/mtype966.a(csma-output.o)
+ .debug_ranges  0x0000000000000078       0x18 obj_cooja/mtype966.a(tcpip.o)
+ .debug_ranges  0x0000000000000090       0x28 obj_cooja/mtype966.a(uip-nd6.o)
+ .debug_ranges  0x00000000000000b8       0x48 obj_cooja/mtype966.a(sicslowpan.o)
+ .debug_ranges  0x0000000000000100       0x30 obj_cooja/mtype966.a(nbr-table.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(obj_cooja/mtype966.cooja elf32-i386)

@@ -1,0 +1,3 @@
+1) local.conf in etc/mosquitto/conf.d
+2) simulation_contiking_mqtt.csc is a simulation
+3) mqtt-mote and rpl-border-router are the two motes involved in the simulation, the directory must be put on the same directory that contains also "contiki-ng-mw-2122"
